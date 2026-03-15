@@ -2,3 +2,4 @@ Activate EDP-IDF environment
 
 ./start.sh
 
+clawedmachine.com
