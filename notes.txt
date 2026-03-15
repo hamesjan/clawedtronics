@@ -3,3 +3,5 @@ Activate EDP-IDF environment
 ./start.sh
 
 clawedmachine.com
+
+Play for tokens
