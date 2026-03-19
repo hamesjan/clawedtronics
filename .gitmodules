@@ -1,0 +1,3 @@
+[submodule "mdb-esp32-cashless"]
+	path = mdb-esp32-cashless
+	url = https://github.com/nodestark/mdb-esp32-cashless
