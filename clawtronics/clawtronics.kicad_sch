@@ -924,7 +924,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "Connector:Screw_Terminal_01x06"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -935,7 +935,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -944,8 +944,8 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Screw_Terminal_01x06"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -976,7 +976,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1009,16 +1009,40 @@
 					)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(symbol "Screw_Terminal_01x06_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 5.4102) (xy 0.3302 4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -1036,6 +1060,54 @@
 				(polyline
 					(pts
 						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -7.2898) (xy 0.3302 -8.128)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 5.588) (xy 0.508 4.7498)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
 						(width 0.1524)
@@ -1069,6 +1141,52 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -7.112) (xy 0.508 -7.9502)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 0 0)
 					(radius 0.635)
@@ -1091,8 +1209,30 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1110,7 +1250,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1120,6 +1260,78 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2608,357 +2820,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:TDN_5-2412WISM"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -12.7 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TDN_5-2412WISM"
-				(at 5.08 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TDN_5-xxxxWISM_SMD"
-				(at -3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Input 9.0 to 36.0V, Output 12.0V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dcdc traco 5W"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Converter?DCDC?TRACO?TDN?5*WISM?SMD*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TDN_5-2412WISM_0_1"
-				(rectangle
-					(start -12.7 7.62)
-					(end 12.7 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TDN_5-2412WISM_1_1"
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -6.35) (xy 0 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 7.62) (xy 1.27 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -15.24 5.08 0)
-					(length 2.54)
-					(name "+VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -5.08 0)
-					(length 2.54)
-					(name "-VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 2.54)
-					(name "ON/OFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(name "-VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 15.24 5.08 180)
-					(length 2.54)
-					(name "+VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TYPE-C-31-M-12:TYPE-C-31-M-12"
 			(pin_names
 				(offset 1.016)
@@ -3694,6 +3555,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+24V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -4087,7 +4087,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
+		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -4101,8 +4101,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4112,8 +4112,8 @@
 					)
 				)
 			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4123,7 +4123,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -1.27 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4134,17 +4134,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4155,7 +4144,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global ground"
+			(property "Description" "Special symbol for telling ERC where power comes from"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4166,95 +4155,20 @@
 					)
 				)
 			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "GNDPWR_1_1"
-				(pin power_in line
-					(at 0 0 270)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
 					(length 0)
 					(name ""
 						(effects
@@ -4272,18 +4186,22 @@
 					)
 				)
 			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
-	)
-	(text "24V in"
-		(exclude_from_sim no)
-		(at 163.576 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f5ea5430-532c-4697-a1ba-09caa063cc55")
 	)
 	(junction
 		(at 135.89 167.005)
@@ -4322,6 +4240,12 @@
 		(uuid "33d378af-c81a-46d2-b9ab-6c7dded3aa6f")
 	)
 	(junction
+		(at 242.57 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e027a4e-0f0c-4afc-b852-e6e20a42aeec")
+	)
+	(junction
 		(at 191.77 90.805)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4346,10 +4270,10 @@
 		(uuid "a3b69959-5f6d-416d-a2ff-41cb8aad590d")
 	)
 	(junction
-		(at 233.68 143.51)
+		(at 242.57 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6a30f40-d417-4c0d-8802-6730b1f66b75")
+		(uuid "a4581718-0367-440e-afad-c66dd143a0e9")
 	)
 	(junction
 		(at 197.485 83.185)
@@ -4395,13 +4319,13 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 143.51) (xy 233.68 143.51)
+			(xy 242.57 151.13) (xy 257.81 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0894b440-8402-432c-8b05-2c9535910a8c")
+		(uuid "07a27f29-a134-4196-90ea-4ecef4fef192")
 	)
 	(wire
 		(pts
@@ -4465,6 +4389,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 146.05) (xy 242.57 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a204619-049c-4bc3-8f26-29df969b3465")
+	)
+	(wire
+		(pts
 			(xy 176.53 90.805) (xy 185.42 90.805)
 		)
 		(stroke
@@ -4505,13 +4439,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 153.67) (xy 248.92 153.67)
+			(xy 242.57 140.97) (xy 242.57 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39c0fad4-95ad-4d4b-b98f-48b227fa51aa")
+		(uuid "37f2d77b-cf81-44f8-a6f7-02436355fcc5")
 	)
 	(wire
 		(pts
@@ -4585,6 +4519,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 146.05) (xy 242.57 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735e24a3-f6bd-4061-9752-ef876d3e8b00")
+	)
+	(wire
+		(pts
 			(xy 80.01 151.13) (xy 95.885 151.13)
 		)
 		(stroke
@@ -4602,6 +4546,16 @@
 			(type default)
 		)
 		(uuid "7398eebc-94e1-465d-9499-7aee604fbe96")
+	)
+	(wire
+		(pts
+			(xy 257.81 140.97) (xy 242.57 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747dc752-24dd-46ab-ba9b-cc73a8b793fa")
 	)
 	(wire
 		(pts
@@ -4645,26 +4599,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 153.67) (xy 248.92 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d4a0d6f-4563-48dc-836d-f3c0e64f4985")
-	)
-	(wire
-		(pts
-			(xy 176.53 143.51) (xy 203.2 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99ea201d-30eb-4c10-aaef-71fb3983f283")
-	)
-	(wire
-		(pts
 			(xy 184.15 83.185) (xy 185.42 83.185)
 		)
 		(stroke
@@ -4672,16 +4606,6 @@
 			(type default)
 		)
 		(uuid "a155389d-6fdd-42b6-bf6c-c235601f8cb9")
-	)
-	(wire
-		(pts
-			(xy 176.53 146.05) (xy 176.53 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1e5ee53-646f-4db3-8719-9a7ad7cdb7e2")
 	)
 	(wire
 		(pts
@@ -4722,16 +4646,6 @@
 			(type default)
 		)
 		(uuid "b4eff7a7-e455-4e01-a3b0-83b422bc0744")
-	)
-	(wire
-		(pts
-			(xy 248.92 143.51) (xy 248.92 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b64054a6-fc80-439c-902e-1c5e70792100")
 	)
 	(wire
 		(pts
@@ -4795,16 +4709,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 143.51) (xy 248.92 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d78eb2-5597-4aee-a4db-d49664449b15")
-	)
-	(wire
-		(pts
 			(xy 230.505 73.66) (xy 230.505 80.01)
 		)
 		(stroke
@@ -4852,16 +4756,6 @@
 			(type default)
 		)
 		(uuid "ee5dd569-f483-4923-9c04-522bf070081f")
-	)
-	(wire
-		(pts
-			(xy 176.53 153.67) (xy 203.2 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4564517-d2ab-4622-88be-d75f51d1d665")
 	)
 	(wire
 		(pts
@@ -6859,7 +6753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04323911-498f-4b8f-b2b7-07ac08d4db12")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 126.365 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6923,7 +6817,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6941,7 +6835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07b6f859-767b-462f-bbc9-09e4f15ec00e")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 137.795 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7005,7 +6899,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7023,7 +6917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "101a3c33-fe5e-4edf-8600-d41caeeeceb4")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 83.185 33.655 0)
 			(hide yes)
 			(show_name no)
@@ -7083,7 +6977,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7193,7 +7087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fa6654b-efe5-4a87-b933-d26b442c9e2a")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 186.055 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7257,85 +7151,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 248.92 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2115850b-7016-4aec-8732-1bbc192490d4")
-		(property "Reference" "#PWR041"
-			(at 248.92 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 248.793 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 248.92 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1136c98a-d0a8-48eb-9e27-59bbf5bd3375")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR041")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7352,7 +7168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23de1798-1634-4a97-b304-41db10886195")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 198.12 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7416,7 +7232,86 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "C3")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 257.81 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23f60efa-e936-4a20-bab3-157264763ac6")
+		(property "Reference" "#PWR022"
+			(at 261.62 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 254 138.4299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 257.81 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "551d9706-684f-41f4-a4c6-419587e043b8")
+		)
+		(instances
+			(project "clawtronics"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7557,6 +7452,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 207.01 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26dead0a-9108-4561-8061-70a13f3f409c")
+		(property "Reference" "#FLG03"
+			(at 207.01 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 207.01 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 207.01 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82ea7d06-4ff9-41a9-bb18-04674088c485")
+		)
+		(instances
+			(project "clawtronics"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 176.53 93.98 0)
 		(unit 1)
@@ -7568,7 +7541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "274402dd-810c-42b5-8608-bcee5555423c")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 176.53 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7628,7 +7601,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7646,7 +7619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d41b530-f9c9-4a0c-9ace-18ea3a30a0af")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 157.48 86.995 0)
 			(hide yes)
 			(show_name no)
@@ -7706,7 +7679,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7724,7 +7697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33a1c277-f7e6-4d5d-bfb6-a1f73df4c6fc")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR04"
 			(at 83.82 140.335 0)
 			(hide yes)
 			(show_name no)
@@ -7784,7 +7757,85 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR013")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 218.44 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39f5d861-66af-4375-9ee0-ef17aa7b1655")
+		(property "Reference" "#FLG04"
+			(at 218.44 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 218.44 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 218.44 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51177d0b-e307-4306-903c-fa7a7ca9d96e")
+		)
+		(instances
+			(project "clawtronics"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -7802,7 +7853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c038eb1-5164-448a-a186-6b89fadeace3")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR05"
 			(at 124.46 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -7862,7 +7913,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR015")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7958,7 +8009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "412a8147-190c-4426-bb45-9f0fa39bf027")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 97.79 167.0049 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8022,7 +8073,86 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "R1")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 257.81 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4830fc96-2dc3-4fa6-895d-171f91c0e59b")
+		(property "Reference" "#PWR023"
+			(at 261.62 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 254 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 257.81 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1faef85b-fadb-46c2-b87e-f0a155ff1513")
+		)
+		(instances
+			(project "clawtronics"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8133,7 +8263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e0169ae-c4db-4935-8583-269b860dc3e2")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 147.955 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8197,7 +8327,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8215,7 +8345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ff7ce58-8473-4c2b-89a2-777ea77ab2b2")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR01"
 			(at 60.96 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -8275,7 +8405,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR012")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8293,7 +8423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f49cf17-a639-430b-87e2-370764e5f68c")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR018"
 			(at 230.505 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8353,7 +8483,86 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR03")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 257.81 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f783d8e-9dbb-4887-b648-39f45c369264")
+		(property "Reference" "#PWR024"
+			(at 261.62 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 254 148.5899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 257.81 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80d180de-fddd-4214-a5c0-d9ba99dfc650")
+		)
+		(instances
+			(project "clawtronics"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8371,7 +8580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "607edcdc-1c5a-47d0-9441-d9e39af61758")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR021"
 			(at 257.175 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8431,7 +8640,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR04")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8449,7 +8658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62d7043c-161e-435e-ad5a-57978b060f7f")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 189.865 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8513,7 +8722,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8531,7 +8740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d42d6d7-0db4-49b7-834b-eedfa29a93d1")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 187.96 62.865 0)
 			(hide yes)
 			(show_name no)
@@ -8591,7 +8800,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8609,7 +8818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dd3700c-117d-4857-a812-0dd4257f4560")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 31.75 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8673,7 +8882,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8772,7 +8981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78fdc014-7a42-4de9-b8e9-e11829c6ceb3")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 83.185 117.475 0)
 			(hide yes)
 			(show_name no)
@@ -8832,7 +9041,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8850,7 +9059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79187b17-7d5d-4bce-9228-c66b5fdd895c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR07"
 			(at 135.89 173.355 0)
 			(hide yes)
 			(show_name no)
@@ -8906,6 +9115,84 @@
 		)
 		(pin "1"
 			(uuid "6a21432e-05c1-42d3-8d9d-6e72a6ea85b9")
+		)
+		(instances
+			(project "clawtronics"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 194.31 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d340f69-8963-48bb-bd04-b29ab8ca1731")
+		(property "Reference" "#PWR014"
+			(at 194.31 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 194.31 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 194.31 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a268cf1e-dbca-49f3-bfef-97f1b652e75c")
 		)
 		(instances
 			(project "clawtronics"
@@ -9062,7 +9349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a10ecc7e-c838-4f46-83b7-6cf7022b19e6")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 85.1409 27.305 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9265,7 +9552,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9477,6 +9764,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 242.57 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abeefaea-af3d-455e-84fb-3e13647e57cc")
+		(property "Reference" "#PWR020"
+			(at 236.22 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 151.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52bc0a1e-fe23-44b6-8248-9c0a9a7536e5")
+		)
+		(instances
+			(project "clawtronics"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 191.77 86.995 0)
 		(unit 1)
@@ -9487,7 +9853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2ac68d3-1da9-4118-91a8-8b46c662d028")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 192.405 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9551,7 +9917,163 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "C2")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 207.01 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5adf012-4c94-4814-ab90-8a8ac60717dd")
+		(property "Reference" "#PWR016"
+			(at 207.01 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 207.01 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 207.01 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ca80ab4-5ca0-4235-a46d-d130423570cd")
+		)
+		(instances
+			(project "clawtronics"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 180.34 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c175b9f6-30a5-4266-bc3e-66b1a5a47c06")
+		(property "Reference" "#FLG01"
+			(at 180.34 151.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 180.34 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 180.34 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd7ebe5b-a326-4628-8044-27f65c3d3222")
+		)
+		(instances
+			(project "clawtronics"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -9569,7 +10091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca896a97-cebf-4b0c-8ba1-53eb167e2af2")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 176.53 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9634,15 +10156,15 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 248.92 137.16 0)
+		(lib_id "power:PWR_FLAG")
+		(at 194.31 149.86 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9651,9 +10173,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d421d651-5006-40f0-9de8-af534f5ff02e")
-		(property "Reference" "#PWR040"
-			(at 248.92 140.97 0)
+		(uuid "d4f79c62-ab75-4818-a91f-0e7752ecd5d1")
+		(property "Reference" "#FLG02"
+			(at 194.31 151.765 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9663,8 +10185,8 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 248.92 132.08 0)
+		(property "Value" "PWR_FLAG"
+			(at 194.31 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9674,7 +10196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 137.16 0)
+			(at 194.31 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9685,7 +10207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 137.16 0)
+			(at 194.31 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9695,8 +10217,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 248.92 137.16 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 194.31 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9707,12 +10229,183 @@
 			)
 		)
 		(pin "1"
-			(uuid "82a88a81-1e49-4981-9b0c-1fb09bb845b3")
+			(uuid "911591c7-02d3-4789-b280-5d50fd10a5ff")
 		)
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR040")
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 149.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da4d011f-1d45-4be3-b530-b13e05806d9a")
+		(property "Reference" "#PWR011"
+			(at 180.34 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dba06731-1c08-4c3c-a791-191690b50bb2")
+		)
+		(instances
+			(project "clawtronics"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x06")
+		(at 262.89 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db8becc7-6e94-49f3-af38-6a80307f30b8")
+		(property "Reference" "J4"
+			(at 262.382 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power"
+			(at 254.508 156.718 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBV_2,5_6-GF-5,08_1x06_P5.08mm_Vertical_ThreadedFlange_MountHole"
+			(at 262.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 262.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "161f942c-d464-4aaa-aa4a-c756b348637b")
+		)
+		(pin "6"
+			(uuid "6e5ed366-6e23-47bc-872c-24f6b4a9b67b")
+		)
+		(pin "1"
+			(uuid "3042c1c8-8036-44c5-91c6-7a1decda3bd6")
+		)
+		(pin "4"
+			(uuid "fc86a772-5b41-4dcd-b001-dd939a73a9f2")
+		)
+		(pin "3"
+			(uuid "fa3bfa0c-82d0-4b53-a8cf-299c27cc152e")
+		)
+		(pin "2"
+			(uuid "f151e3df-fb73-44b5-9642-686026f45d32")
+		)
+		(instances
+			(project "clawtronics"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9823,7 +10516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd7ebf96-6e2b-4706-b175-4ac5cab69e2d")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 189.865 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9921,7 +10614,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9939,7 +10632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddfb55da-c7ea-467a-9f87-5f6b4fddc2a3")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 187.96 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9999,99 +10692,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:TDN_5-2412WISM")
-		(at 218.44 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e034b4b5-d0f1-4c09-87d6-4a1e9d64863d")
-		(property "Reference" "U4"
-			(at 218.44 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TDN_5-2412WISM"
-			(at 218.44 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TDN_5-xxxxWISM_SMD"
-			(at 214.63 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf"
-			(at 217.17 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Input 9.0 to 36.0V, Output 12.0V"
-			(at 218.44 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "486c5748-9549-4ed1-ac85-cdd5aa45d8f6")
-		)
-		(pin "1"
-			(uuid "de57b42d-9333-40e3-a99c-0a4b7a418c4f")
-		)
-		(pin "7"
-			(uuid "7e925c79-cad0-4aa0-ad66-f280e824cff8")
-		)
-		(pin "4"
-			(uuid "9ba553b4-dcf3-4815-94b9-83e8c717a74b")
-		)
-		(pin "5"
-			(uuid "2d82d317-acae-41ea-a4c9-29be588739a4")
-		)
-		(pin "6"
-			(uuid "af47037b-6927-4cbf-b2e0-c708b879dbad")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "U4")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10109,7 +10710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e72b2e7b-06ca-4bd7-b59a-d58daa633375")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR019"
 			(at 235.585 85.725 0)
 			(hide yes)
 			(show_name no)
@@ -10169,7 +10770,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR01")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10187,7 +10788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e74f11f5-b06b-46cd-91f9-5aee04626dfb")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 168.91 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10285,7 +10886,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -10303,7 +10904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3cc53de-0ff0-4883-9fca-73b4fbd83cf4")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR015"
 			(at 200.66 86.995 0)
 			(hide yes)
 			(show_name no)
@@ -10363,7 +10964,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR06")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10380,7 +10981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3f1cf9f-6cbe-475c-bdaa-7975e6a52220")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 165.735 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10444,7 +11045,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10462,7 +11063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f49eb2c1-a98f-4e57-bfb0-3bf6d70a1dc3")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR06"
 			(at 135.89 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10522,15 +11123,15 @@
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "#PWR016")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 171.45 146.05 180)
+		(lib_id "power:+5V")
+		(at 218.44 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10539,9 +11140,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fa244b89-9d94-45b3-8a9b-8b8ac35bfe6a")
-		(property "Reference" "J4"
-			(at 171.45 137.16 0)
+		(uuid "f86b2328-64c5-47b4-a641-9fff61a4025e")
+		(property "Reference" "#PWR017"
+			(at 218.44 153.67 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10550,8 +11152,8 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 171.45 139.7 0)
+		(property "Value" "+5V"
+			(at 218.44 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10561,7 +11163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 146.05 0)
+			(at 218.44 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10572,7 +11174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 146.05 0)
+			(at 218.44 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10582,8 +11184,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 146.05 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 218.44 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10592,17 +11194,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "6059040d-4f0b-423f-b0da-1929c6b3adad")
 		)
 		(pin "1"
-			(uuid "0ce612d4-fafb-4b8b-a0d9-7db016d1a3cd")
+			(uuid "8b771c20-9a5f-466a-b061-c0b43860922e")
 		)
 		(instances
 			(project "clawtronics"
 				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1"
-					(reference "J4")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
