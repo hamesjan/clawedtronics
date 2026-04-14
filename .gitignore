@@ -1,2 +1,5 @@
 */build/*
 */env
+*/clawtronics-backups/*
+*/.history
+*/.DS_Store

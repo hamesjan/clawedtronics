@@ -694,9 +694,14 @@
         "filename": "motors.kicad_sch",
         "name": "motors",
         "uuid": "cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+      },
+      {
+        "filename": "switches_etc.kicad_sch",
+        "name": "switches_etc",
+        "uuid": "9db13395-cfd3-4ad5-91cb-5359403e95d5"
       }
     ],
-    "used_designators": "U3-5",
+    "used_designators": "SW1-2,#FLG1-5,R1-23,C1-23,D1-4,Q1,#PWR1-67,J1-8,U1-5",
     "variants": []
   },
   "sheets": [
@@ -707,6 +712,10 @@
     [
       "cc1ca336-3c31-444e-9aa4-ec0173cb8745",
       "motors"
+    ],
+    [
+      "9db13395-cfd3-4ad5-91cb-5359403e95d5",
+      "switches_etc"
     ]
   ],
   "text_variables": {},

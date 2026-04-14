@@ -6409,7 +6409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a82fd9f-4eaa-4301-b517-78df54bd6f87")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 157.48 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6662,7 +6662,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7108,7 +7108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7be044d2-d29a-44a6-9171-e5cd442f31af")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 99.06 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7361,7 +7361,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
