@@ -3688,7 +3688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03e1e781-84a8-40fa-b2ee-0b2826881090")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 110.49 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3748,7 +3748,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4114,7 +4114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "138661d1-761f-42de-87d8-16158ceb62e5")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 118.11 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4174,7 +4174,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4198,7 +4198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1488189b-3b29-499f-8147-d0a749c2a4d0")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 71.12 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4258,7 +4258,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4282,7 +4282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b165f0c-c279-4118-84fd-6a36aeb94262")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 72.39 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4342,7 +4342,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4366,7 +4366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e4d6f6b-a9b3-4b2f-af23-6dde0d38a7c3")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 86.36 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4426,7 +4426,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4449,7 +4449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fd6b279-f0d4-453d-bb5a-008acf33421a")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 100.33 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4509,7 +4509,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4533,7 +4533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22c3f260-4c04-47a5-8b51-977edc4496a2")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR061"
 			(at 170.18 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4594,7 +4594,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR059")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4617,7 +4617,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27106419-9c79-47ad-8971-225248a0f4e9")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 86.36 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -4677,7 +4677,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5132,7 +5132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ae05578-e8e4-46ed-8896-533e60ee1453")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 27.94 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5192,7 +5192,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5390,7 +5390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "471917e5-a85b-4314-8254-b23b3597b6df")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 73.66 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5450,7 +5450,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5562,7 +5562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bedb655-3b18-4f5f-865a-76a2e9cf0e3b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 64.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5622,7 +5622,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5645,7 +5645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e3cf22a-18d0-4ec8-aa14-63cc7ae13018")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 86.36 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5705,7 +5705,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5814,7 +5814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5822342b-e7fd-416e-841f-119a4f3e042b")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 101.6 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5874,7 +5874,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5986,7 +5986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e84d636-6aa9-409b-b4f7-bff5af6c37c4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 64.77 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6046,7 +6046,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6325,7 +6325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "679888a2-5e13-4d39-b3b6-606100ddf408")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR064"
 			(at 182.88 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6385,7 +6385,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR062")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6685,7 +6685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c12d9fb-d194-4dc2-83a0-270c58387a77")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 87.63 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6745,7 +6745,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6769,7 +6769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd7b9f4-729a-433e-835f-0eba3adfb063")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 123.19 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6829,7 +6829,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -6939,7 +6939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74482e31-17d2-44d3-bd16-ea02d946699a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 73.66 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6999,7 +6999,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7023,7 +7023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759ec9c4-8af7-4915-82ce-c5d95851753b")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 182.88 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7084,7 +7084,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -7469,7 +7469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80bef2de-bc07-4dda-b773-8823f09cf2f3")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 91.44 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7529,7 +7529,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7552,7 +7552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8161acbe-6637-485f-8a22-c697c1412db1")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 78.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7612,7 +7612,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7721,7 +7721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92018739-f0fd-4927-baa7-ca50fa40ab79")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 25.4 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -7781,7 +7781,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7804,7 +7804,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "931acbc6-3c24-4e08-9e9e-ea005c30cbbb")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 41.91 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -7864,7 +7864,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7888,7 +7888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97b84757-b6fa-46fa-926a-2fa7674a47e9")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 95.25 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7948,7 +7948,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7972,7 +7972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eab31f2-b454-4222-ac6f-44a9cbb89c38")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR062"
 			(at 170.18 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8032,7 +8032,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR060")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8333,7 +8333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a62da094-3d78-408c-af7c-425dfc2a0fe0")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR060"
 			(at 130.81 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8393,7 +8393,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR058")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8588,7 +8588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcf493bc-70fc-466f-b8d1-0f931cfb4fca")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8648,7 +8648,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9268,7 +9268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8586d1a-7618-4971-b265-aea5d849c5e3")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 55.88 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9328,7 +9328,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9352,7 +9352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbe74d2c-c354-4491-87af-334cc0187b9f")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 40.64 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9412,7 +9412,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9523,7 +9523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf767480-8e67-43d2-8fad-dce2691d1f99")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 107.95 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9583,7 +9583,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9607,7 +9607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d41fc617-15a8-4148-8112-f677dfdce4a7")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 123.19 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9667,7 +9667,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -9691,7 +9691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5fc077f-f3c8-46f4-ad44-6513994d3f6c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 49.53 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9751,7 +9751,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9775,7 +9775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d63cbbce-2676-47b3-9b94-1751c26663b3")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 83.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9835,7 +9835,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9859,7 +9859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0d048dd-e55b-4d35-968d-e2681861eda0")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 124.46 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -9919,7 +9919,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR057")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -10030,7 +10030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3cbbd1f-c362-40bd-8502-9e3ec19f85b4")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 124.46 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10091,7 +10091,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10115,7 +10115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e49552af-4d77-4153-94b2-d591ce19cf23")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 110.49 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10175,7 +10175,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -10220,7 +10220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBV_2,5_6-GF-5,08_1x06_P5.08mm_Vertical_ThreadedFlange_MountHole"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05506HBLC_1x06_P5.00mm_Horizontal"
 			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10297,7 +10297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f09fb437-2086-48d6-ab22-b82a24d1b554")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 33.02 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10357,7 +10357,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10466,7 +10466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4dd50f2-e40e-44f1-89d7-913657cec31d")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 99.06 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10526,7 +10526,7 @@
 		(instances
 			(project "clawtronics"
 				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)

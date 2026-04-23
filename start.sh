@@ -1,5 +1,6 @@
 # /bin/bash
 cd ~/esp/esp-idf
 . ./export.sh
-cd ~/projects/clawedmachine/hello_world
+cd ~/projects/clawedtronics/hello_world
+idf.py fullclean
 idf.py -p /dev/cu.usbmodem1101 flash monitor

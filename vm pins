@@ -1,0 +1,9 @@
+For middle limit switches this is how gpios will read
+You only need one 
+zero when fully at top
+1 when dropping
+zero when dropped 1.5 feet
+1 when going up
+0 when fully at top
+
+connect black grey ground, pink pos

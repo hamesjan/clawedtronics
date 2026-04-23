@@ -12,11 +12,44 @@
 #include "esp_chip_info.h"
 #include "esp_flash.h"
 #include "esp_system.h"
+#include "driver/gpio.h"
+
+#define GPIO_INPUT_PIN_11 11
+#define GPIO_INPUT_PIN_12 12
+#define GPIO_OUTPUT_PIN_10 10
 
 void app_main(void)
 {
+    gpio_config_t in_conf = {
+        .pin_bit_mask = (1ULL << GPIO_INPUT_PIN_11) | (1ULL << GPIO_INPUT_PIN_12),
+        .mode = GPIO_MODE_INPUT,
+        .pull_up_en = GPIO_PULLUP_ENABLE,
+        .pull_down_en = GPIO_PULLDOWN_DISABLE,
+        .intr_type = GPIO_INTR_DISABLE,
+    };
+    gpio_config(&in_conf);
+
+    gpio_config_t out_conf = {
+        .pin_bit_mask = (1ULL << GPIO_OUTPUT_PIN_10),
+        .mode = GPIO_MODE_OUTPUT,
+        .pull_up_en = GPIO_PULLUP_DISABLE,
+        .pull_down_en = GPIO_PULLDOWN_DISABLE,
+        .intr_type = GPIO_INTR_DISABLE,
+    };
+    gpio_config(&out_conf);
+
+    int toggle = 0;
     while (1)
     {
+        gpio_set_level(GPIO_OUTPUT_PIN_10, toggle);
+        toggle = !toggle;
+
+        printf("GPIO 10: %d  GPIO 11: %d  GPIO 12: %d\n",
+            gpio_get_level(GPIO_OUTPUT_PIN_10),
+            gpio_get_level(GPIO_INPUT_PIN_11),
+            gpio_get_level(GPIO_INPUT_PIN_12));
+        vTaskDelay(4000 / portTICK_PERIOD_MS);
+
         printf("Hello world!\n");
 
         /* Print chip information */
@@ -44,11 +77,7 @@ void app_main(void)
 
         printf("Minimum free heap size: %" PRIu32 " bytes\n", esp_get_minimum_free_heap_size());
 
-        for (int i = 10; i >= 0; i--) {
-            printf("Restarting in %d seconds...\n", i);
-            vTaskDelay(1000 / portTICK_PERIOD_MS);
-        }
-        printf("Restarting now.\n");
+        vTaskDelay(1000 / portTICK_PERIOD_MS);
         fflush(stdout);
     }
 }
