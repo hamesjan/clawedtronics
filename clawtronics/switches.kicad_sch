@@ -3722,7 +3722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_X2SON-5_0.8x0.8mm_P0.48mm"
+		(property "Footprint" "Package_SON:Texas_X2SON-5_0.8x0.8mm_P0.48mm_RoutingVia"
 			(at 109.22 109.22 0)
 			(hide yes)
 			(show_name no)
