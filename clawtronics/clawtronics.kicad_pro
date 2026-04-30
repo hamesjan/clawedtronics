@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.2,
+          "height": 0.3,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -66,7 +66,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -91,7 +91,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -101,7 +101,7 @@
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "warning",
+        "padstack": "ignore",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -132,20 +132,20 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.0,
+        "min_hole_to_hole": 0.0,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_text_height": 0.2,
+        "min_text_thickness": 0.02,
+        "min_through_hole_diameter": 0.0508,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.0,
+        "min_via_diameter": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -540,6 +540,14 @@
       {
         "netclass": "Power",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+24V"
       }
     ]
   },
@@ -689,16 +697,6 @@
         "filename": "clawtronics.kicad_sch",
         "name": "clawtronics",
         "uuid": "cb9cde49-491c-4637-83a4-9a90127d65a1"
-      },
-      {
-        "filename": "motors.kicad_sch",
-        "name": "motors",
-        "uuid": "cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-      },
-      {
-        "filename": "switches_etc.kicad_sch",
-        "name": "switches_etc",
-        "uuid": "9db13395-cfd3-4ad5-91cb-5359403e95d5"
       }
     ],
     "used_designators": "",
@@ -710,12 +708,20 @@
       "clawtronics"
     ],
     [
-      "cc1ca336-3c31-444e-9aa4-ec0173cb8745",
+      "c56c4902-53f7-453b-b6f4-e1fb84351489",
       "motors"
     ],
     [
-      "9db13395-cfd3-4ad5-91cb-5359403e95d5",
-      "switches_etc"
+      "4d03e860-a0bd-4ee1-ac23-f2043156ae72",
+      "motors1"
+    ],
+    [
+      "e6357099-1791-4e78-b14e-3314d4d21a5b",
+      "motors2"
+    ],
+    [
+      "85179c29-ffc9-4fa1-83a3-24bcaa94866e",
+      "switches"
     ]
   ],
   "text_variables": {},

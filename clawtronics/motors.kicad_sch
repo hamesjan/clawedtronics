@@ -5,9 +5,12 @@
 	(uuid "df82e617-458e-4dc3-af50-35e634a76340")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x06"
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016)
+				(offset 0.762)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -15,8 +18,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 7.62 0)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,8 +28,8 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x06"
-				(at 0 -10.16 0)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +39,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -47,6 +50,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -57,7 +71,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -68,7 +82,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
+			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,243 +93,24 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "Screw_Terminal_01x06_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 5.4102) (xy 0.3302 4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -7.2898) (xy 0.3302 -8.128)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 5.588) (xy 0.508 4.7498)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -7.112) (xy 0.508 -7.9502)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -7.62)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -323,96 +118,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1253,6 +958,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Motor:Motor_DC"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_DC"
+				(at 2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DC Motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC Motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Motor_DC_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_0_1"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.7272) (xy 0 2.0828)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.524)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.7752) (xy 0 -5.1816)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+24V"
 			(power global)
 			(pin_numbers
@@ -1646,391 +1552,86 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "X Motor"
-		(exclude_from_sim no)
-		(at 277.622 87.884 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "30a30562-5b92-4df8-bf58-97bd734996b1")
-	)
-	(text "Y Motor"
-		(exclude_from_sim no)
-		(at 277.622 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "79dd3e10-d5f4-499e-9fe7-758a380e0537")
-	)
-	(text "Claw Motor"
-		(exclude_from_sim no)
-		(at 278.13 92.964 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7b10dd68-1a25-4a6f-8543-ff3a2c21fa89")
 	)
 	(junction
-		(at 27.94 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2501c673-2c0b-4cc9-a48c-1afd308f95db")
-	)
-	(junction
-		(at 182.88 68.58)
+		(at 171.45 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c3d1ec2-809c-42c0-8baf-b09ecb34c176")
 	)
 	(junction
-		(at 99.06 50.8)
+		(at 179.07 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c8c329e-b072-4b55-96cf-cfe9b1be29fe")
+	)
+	(junction
+		(at 87.63 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3404dddb-c0b4-4a22-8ab6-7d5ff5c4fb58")
 	)
 	(junction
-		(at 110.49 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "380bc876-0b46-4c43-a57c-b228bcedb1c1")
-	)
-	(junction
-		(at 86.36 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4beb8d0e-f27f-4103-b463-e2076205b5ec")
-	)
-	(junction
-		(at 83.82 50.8)
+		(at 72.39 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f7452fd-0d4c-40eb-bf10-f5b4ce4c3777")
 	)
 	(junction
-		(at 124.46 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53792da7-40ef-47e7-9256-3015958b01a7")
-	)
-	(junction
-		(at 64.77 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "614dcb80-48e9-4d0b-bf9e-f02e9a794b53")
-	)
-	(junction
-		(at 33.02 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66f726c2-b560-4f4b-ae0b-c4eeef84b0f5")
-	)
-	(junction
-		(at 124.46 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6910fd01-9cca-403a-aa91-c49346194a4b")
-	)
-	(junction
-		(at 124.46 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c3ca353-486a-43c1-9119-fa3f72bbd21f")
-	)
-	(junction
-		(at 182.88 35.56)
+		(at 171.45 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e67b045-66f8-4bae-8e74-49bfbb506b4a")
 	)
 	(junction
-		(at 170.18 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f623b5a-4367-427a-8758-e5b113e1cc85")
-	)
-	(junction
-		(at 130.81 22.86)
+		(at 119.38 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73904fb4-bd88-4058-b667-8efb11f42abf")
 	)
 	(junction
-		(at 41.91 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abeedbf8-ce2c-4b2d-b193-fd655fbd8bdb")
-	)
-	(junction
-		(at 118.11 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac447e7e-eb10-4534-b785-43d766243424")
-	)
-	(junction
-		(at 71.12 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b70c8394-fd2e-4d10-b391-72f8fa1d924d")
-	)
-	(junction
-		(at 91.44 26.67)
+		(at 80.01 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba2b4ea3-8bd6-4339-8e18-3bb9264ea9e7")
 	)
 	(junction
-		(at 73.66 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb397da7-046e-4dc2-a2c4-a920be9fb7f0")
-	)
-	(junction
-		(at 78.74 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbacab49-fe49-4b6b-9300-acf5525c8ed3")
-	)
-	(junction
-		(at 72.39 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdf642ed-bc14-40a8-ab00-e8bef804cd37")
-	)
-	(junction
-		(at 49.53 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfb20a31-9c46-4d78-b707-dfd6140a2c9c")
-	)
-	(junction
-		(at 123.19 22.86)
+		(at 111.76 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5c514c7-aef5-42a4-94ac-154997acd9e1")
 	)
 	(junction
-		(at 170.18 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8f181ec-f4de-4c00-8980-1932f9c56a00")
-	)
-	(junction
-		(at 170.18 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cca3ec2f-e28b-48e8-8aab-f0aa0d3c69a3")
-	)
-	(junction
-		(at 25.4 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1685d56-57fa-46f5-b267-224b169a3205")
-	)
-	(junction
-		(at 95.25 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d45ad96a-9a90-42ea-a3af-603f10b22594")
-	)
-	(junction
-		(at 86.36 26.67)
+		(at 74.93 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbc02ddc-0de1-49e7-9bf1-3e0292a0799d")
 	)
 	(junction
-		(at 182.88 71.12)
+		(at 171.45 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7ea6de0-4885-4fb8-852c-82fca95d53b8")
 	)
 	(junction
-		(at 107.95 58.42)
+		(at 96.52 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb64b118-5adc-4f1c-aca5-6e4f54708aaf")
 	)
-	(junction
-		(at 40.64 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc064c14-901e-4625-abdf-541f4fb31736")
-	)
 	(wire
 		(pts
-			(xy 257.81 93.98) (xy 257.81 160.02)
+			(xy 198.12 95.25) (xy 198.12 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00e703cf-e967-4cff-ba91-1a3855198a7e")
+		(uuid "0a61f0f7-39d2-4387-a5a1-dbf81d6a0497")
 	)
 	(wire
 		(pts
-			(xy 177.8 43.18) (xy 254 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0115537d-f763-4135-a9df-41bec6187d78")
-	)
-	(wire
-		(pts
-			(xy 25.4 165.1) (xy 25.4 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02abf4f0-0acc-40dd-ac91-e2a64b527f58")
-	)
-	(wire
-		(pts
-			(xy 99.06 104.14) (xy 124.46 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05cb1f2f-1347-4ae7-a368-fe8b94addd24")
-	)
-	(wire
-		(pts
-			(xy 27.94 133.35) (xy 27.94 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05e6fe09-5dd6-4ab3-b5c7-8cabf00a8c6f")
-	)
-	(wire
-		(pts
-			(xy 83.82 50.8) (xy 83.82 53.34)
+			(xy 72.39 102.87) (xy 72.39 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2040,17 +1641,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 182.88) (xy 124.46 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e03700e-9021-43a9-85e3-649f966aac0a")
-	)
-	(wire
-		(pts
-			(xy 77.47 50.8) (xy 83.82 50.8)
+			(xy 54.61 102.87) (xy 72.39 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2060,17 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 146.05) (xy 27.94 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f9f39d3-1a90-4c24-ae2f-5c3c59f046e7")
-	)
-	(wire
-		(pts
-			(xy 86.36 31.75) (xy 86.36 34.29)
+			(xy 74.93 83.82) (xy 74.93 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +1661,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 19.05) (xy 123.19 22.86)
+			(xy 111.76 71.12) (xy 111.76 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2090,57 +1671,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 92.71) (xy 101.6 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12eb8ac9-e5d0-425d-96a9-9932105bbca2")
-	)
-	(wire
-		(pts
-			(xy 45.72 140.97) (xy 45.72 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12f28c84-efda-4539-9525-2f525afa40f3")
-	)
-	(wire
-		(pts
-			(xy 124.46 83.82) (xy 124.46 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "166f0d55-e193-4948-a6cd-81d312f55a8d")
-	)
-	(wire
-		(pts
-			(xy 124.46 119.38) (xy 95.25 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1752873f-1396-4d38-8056-5e70e275486d")
-	)
-	(wire
-		(pts
-			(xy 49.53 170.18) (xy 49.53 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17ba2f8c-f966-4077-ba47-407b3d239c67")
-	)
-	(wire
-		(pts
-			(xy 177.8 50.8) (xy 182.88 50.8)
+			(xy 166.37 102.87) (xy 171.45 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2150,17 +1681,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 114.3) (xy 165.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18acf89a-12e4-406e-b8eb-e6f097bd3912")
-	)
-	(wire
-		(pts
-			(xy 104.14 26.67) (xy 104.14 35.56)
+			(xy 92.71 78.74) (xy 92.71 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2170,7 +1691,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 31.75) (xy 114.3 31.75)
+			(xy 125.73 83.82) (xy 102.87 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2180,17 +1701,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 111.76) (xy 170.18 111.76)
+			(xy 198.12 97.79) (xy 198.12 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "211e86d0-5608-4f13-a236-794f2f464037")
+		(uuid "1e5ba12a-9ce1-4e3b-8f7e-412b1bcb95a3")
 	)
 	(wire
 		(pts
-			(xy 182.88 22.86) (xy 182.88 25.4)
+			(xy 171.45 74.93) (xy 171.45 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2200,27 +1721,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 111.76) (xy 175.26 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26197817-7987-4011-a57b-19d595f763bf")
-	)
-	(wire
-		(pts
-			(xy 64.77 137.16) (xy 72.39 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2635214c-87ff-4a49-8c7d-fcddf8973a68")
-	)
-	(wire
-		(pts
-			(xy 99.06 50.8) (xy 99.06 53.34)
+			(xy 87.63 102.87) (xy 87.63 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2230,107 +1731,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 180.34) (xy 124.46 180.34)
+			(xy 179.07 87.63) (xy 181.61 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30c503f5-26d8-4a72-a78d-f7add2d5dc3c")
+		(uuid "2e65b363-7bb2-4aff-9349-f0e8fe806c18")
 	)
 	(wire
 		(pts
-			(xy 73.66 86.36) (xy 73.66 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31c0eca5-705c-41f7-b650-61e31d2a9e32")
-	)
-	(wire
-		(pts
-			(xy 165.1 127) (xy 170.18 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32629c12-1f5c-4e4d-8ea5-e274f8990605")
-	)
-	(wire
-		(pts
-			(xy 45.72 149.86) (xy 78.74 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34a2d7d0-c850-411c-b3b0-03f8865a8dc1")
-	)
-	(wire
-		(pts
-			(xy 33.02 146.05) (xy 33.02 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "378ebd49-5a3a-4393-ae31-98a1d74993f7")
-	)
-	(wire
-		(pts
-			(xy 72.39 137.16) (xy 78.74 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398a430a-ac97-4d08-aa50-bd7ab08cc4c4")
-	)
-	(wire
-		(pts
-			(xy 124.46 144.78) (xy 124.46 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39e0d811-f6f0-44ee-bbff-3b2f108d15a2")
-	)
-	(wire
-		(pts
-			(xy 250.19 88.9) (xy 250.19 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b9588b1-9211-49ad-bd1e-a09859b5a7d4")
-	)
-	(wire
-		(pts
-			(xy 55.88 146.05) (xy 55.88 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bced8a4-8fc4-489f-9357-4ea93f6ec708")
-	)
-	(wire
-		(pts
-			(xy 30.48 165.1) (xy 25.4 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fbbf3f0-fffa-4e83-87e1-7af3bb44eead")
-	)
-	(wire
-		(pts
-			(xy 137.16 22.86) (xy 137.16 25.4)
+			(xy 125.73 74.93) (xy 125.73 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2340,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 53.34) (xy 177.8 53.34)
+			(xy 176.53 105.41) (xy 166.37 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2350,7 +1761,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 35.56) (xy 182.88 35.56)
+			(xy 166.37 87.63) (xy 171.45 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2360,17 +1771,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 152.4) (xy 78.74 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "487d7b56-2ae4-4ebe-9f56-49e6002000a4")
-	)
-	(wire
-		(pts
-			(xy 177.8 45.72) (xy 251.46 45.72)
+			(xy 166.37 97.79) (xy 198.12 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2380,27 +1781,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 157.48) (xy 78.74 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d1b8e51-8942-4697-b814-8fa654408414")
-	)
-	(wire
-		(pts
-			(xy 81.28 111.76) (xy 86.36 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5847f919-d2e6-4e33-9250-4e4f812f11fb")
-	)
-	(wire
-		(pts
-			(xy 86.36 26.67) (xy 91.44 26.67)
+			(xy 74.93 78.74) (xy 80.01 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2410,7 +1791,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 35.56) (xy 137.16 35.56)
+			(xy 92.71 87.63) (xy 125.73 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2420,7 +1801,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 22.86) (xy 123.19 22.86)
+			(xy 102.87 74.93) (xy 111.76 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2430,7 +1811,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 71.12) (xy 182.88 74.93)
+			(xy 171.45 123.19) (xy 171.45 127)
 		)
 		(stroke
 			(width 0)
@@ -2440,7 +1821,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 30.48) (xy 182.88 35.56)
+			(xy 171.45 82.55) (xy 171.45 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2450,57 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 146.05) (xy 78.74 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6083dc2c-374c-40dd-ac8f-2cae481837dc")
-	)
-	(wire
-		(pts
-			(xy 124.46 116.84) (xy 95.25 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "609a630d-e284-41fe-9035-ecc4db242350")
-	)
-	(wire
-		(pts
-			(xy 78.74 87.63) (xy 91.44 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62dbbcf2-a559-4d22-971f-9d584006b28f")
-	)
-	(wire
-		(pts
-			(xy 78.74 165.1) (xy 40.64 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64f2c984-093d-4248-acd5-a87aab19ff9f")
-	)
-	(wire
-		(pts
-			(xy 78.74 170.18) (xy 49.53 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65d0eb50-98c0-4802-a886-2a988635ae82")
-	)
-	(wire
-		(pts
-			(xy 100.33 38.1) (xy 137.16 38.1)
+			(xy 88.9 90.17) (xy 125.73 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2510,47 +1841,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 140.97) (xy 33.02 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "668d829a-1ccc-4a4c-b14f-115c328e04b7")
-	)
-	(wire
-		(pts
-			(xy 265.43 88.9) (xy 250.19 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66f44442-5417-4f87-b278-71b324c38b06")
-	)
-	(wire
-		(pts
-			(xy 165.1 96.52) (xy 170.18 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "675ab672-6d90-4606-9c01-69a8d8bc1706")
-	)
-	(wire
-		(pts
-			(xy 265.43 81.28) (xy 254 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "684b1367-dfd9-4f02-87a6-c9baf7648036")
-	)
-	(wire
-		(pts
-			(xy 130.81 22.86) (xy 137.16 22.86)
+			(xy 119.38 74.93) (xy 125.73 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2560,7 +1851,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 25.4) (xy 86.36 26.67)
+			(xy 74.93 77.47) (xy 74.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2570,17 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 83.82) (xy 170.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a529c61-45f2-4f75-985c-3e0063af588a")
-	)
-	(wire
-		(pts
-			(xy 137.16 31.75) (xy 137.16 27.94)
+			(xy 125.73 83.82) (xy 125.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2590,77 +1871,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 111.76) (xy 86.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dd1884a-d97e-4183-8447-38fc84ca0c7d")
-	)
-	(wire
-		(pts
-			(xy 27.94 139.7) (xy 27.94 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6efaff31-ed66-4f14-a478-b8b958c87456")
-	)
-	(wire
-		(pts
-			(xy 110.49 80.01) (xy 110.49 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "753159a6-e52a-42e5-8a5b-bffdc11e328e")
-	)
-	(wire
-		(pts
-			(xy 101.6 80.01) (xy 101.6 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7600dde1-08f0-4d10-8244-f190b8bba5b8")
-	)
-	(wire
-		(pts
-			(xy 91.44 87.63) (xy 91.44 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "794e7318-808b-4574-9c4a-8461d4d23be1")
-	)
-	(wire
-		(pts
-			(xy 248.92 86.36) (xy 265.43 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a33edcd-a68b-4640-8408-a911c44b59ec")
-	)
-	(wire
-		(pts
-			(xy 124.46 185.42) (xy 124.46 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b58fc71-3cdd-4c34-876a-41e269dfe314")
-	)
-	(wire
-		(pts
-			(xy 88.9 50.8) (xy 83.82 50.8)
+			(xy 77.47 102.87) (xy 72.39 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2670,37 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 92.71) (xy 78.74 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e820265-9833-4cb8-83c1-7eda7bcb56a0")
-	)
-	(wire
-		(pts
-			(xy 129.54 165.1) (xy 129.54 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fb68e92-e6a0-48a0-a242-6a264b12d582")
-	)
-	(wire
-		(pts
-			(xy 124.46 180.34) (xy 124.46 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "822a4700-0af0-4d88-9c4f-599158b6d819")
-	)
-	(wire
-		(pts
-			(xy 123.19 22.86) (xy 130.81 22.86)
+			(xy 111.76 74.93) (xy 119.38 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2710,67 +1891,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 91.44) (xy 265.43 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831f8671-598f-4e51-ae54-3dcb6754aed8")
-	)
-	(wire
-		(pts
-			(xy 21.59 165.1) (xy 25.4 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8442882e-0f8e-403e-a32b-e3e2a4afafaf")
-	)
-	(wire
-		(pts
-			(xy 64.77 133.35) (xy 64.77 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "849b61e0-057b-42f7-a484-f7622fda647e")
-	)
-	(wire
-		(pts
-			(xy 251.46 83.82) (xy 265.43 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "849d7494-7ab4-417b-80b5-0f550d4d5b07")
-	)
-	(wire
-		(pts
-			(xy 101.6 92.71) (xy 101.6 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84eb78d2-b902-432d-bdd2-ae4f48a98f7a")
-	)
-	(wire
-		(pts
-			(xy 254 43.18) (xy 254 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86e8238d-73ce-404a-8361-fca15cc94c4f")
-	)
-	(wire
-		(pts
-			(xy 182.88 66.04) (xy 182.88 68.58)
+			(xy 171.45 118.11) (xy 171.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2780,17 +1901,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 73.66 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "878210d6-e3a5-4655-9025-7a3918a79c4b")
-	)
-	(wire
-		(pts
-			(xy 91.44 26.67) (xy 104.14 26.67)
+			(xy 80.01 78.74) (xy 92.71 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2800,7 +1911,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 43.18) (xy 137.16 43.18)
+			(xy 100.33 95.25) (xy 125.73 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2810,77 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 111.76) (xy 71.12 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c979608-4e64-4e4f-892d-141eb82a2e6f")
-	)
-	(wire
-		(pts
-			(xy 129.54 167.64) (xy 119.38 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c9e7b50-a919-4a69-9193-33ad2433e782")
-	)
-	(wire
-		(pts
-			(xy 251.46 45.72) (xy 251.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d0fb060-faa1-404e-a462-fe301c5facb6")
-	)
-	(wire
-		(pts
-			(xy 119.38 157.48) (xy 255.27 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d5e8b11-0150-4241-a735-559cfa7a70d8")
-	)
-	(wire
-		(pts
-			(xy 170.18 132.08) (xy 170.18 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5dbfe8-7486-4265-9b57-d027604dd887")
-	)
-	(wire
-		(pts
-			(xy 78.74 137.16) (xy 78.74 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e730fce-f5b9-4df1-9dbd-2b7b87e4576a")
-	)
-	(wire
-		(pts
-			(xy 170.18 129.54) (xy 170.18 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90d627a0-3b54-4550-b1fc-617147a9a543")
-	)
-	(wire
-		(pts
-			(xy 182.88 35.56) (xy 193.04 35.56)
+			(xy 171.45 87.63) (xy 179.07 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2890,67 +1931,37 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 91.44) (xy 170.18 96.52)
+			(xy 198.12 90.17) (xy 204.47 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92e51085-272a-4614-99ef-e01831c6b5d0")
+		(uuid "92cdfc1b-f45d-4f2d-8c06-962f7b485784")
 	)
 	(wire
 		(pts
-			(xy 248.92 104.14) (xy 248.92 86.36)
+			(xy 166.37 95.25) (xy 198.12 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "950cc660-75e4-44fe-809a-6de363038041")
+		(uuid "9fe86c50-a7ad-4f3d-a1e9-1440aaa23d67")
 	)
 	(wire
 		(pts
-			(xy 119.38 185.42) (xy 124.46 185.42)
+			(xy 198.12 102.87) (xy 204.47 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96dc3ea7-4f45-4323-86f4-32b6fb0035ac")
+		(uuid "a303af9c-0a57-4d35-ade4-65b27fdf986e")
 	)
 	(wire
 		(pts
-			(xy 165.1 104.14) (xy 248.92 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "981c4d13-c8e3-44cd-96c6-f3889275abf0")
-	)
-	(wire
-		(pts
-			(xy 76.2 111.76) (xy 71.12 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98cc3e65-e762-4207-914e-613b3b9abb4d")
-	)
-	(wire
-		(pts
-			(xy 124.46 111.76) (xy 86.36 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d8ab0f0-b4c6-409f-860a-55aa938d1a50")
-	)
-	(wire
-		(pts
-			(xy 91.44 31.75) (xy 91.44 34.29)
+			(xy 80.01 83.82) (xy 80.01 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2960,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 50.8) (xy 187.96 53.34)
+			(xy 176.53 102.87) (xy 176.53 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2970,17 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 172.72) (xy 49.53 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab9c1b8f-c54f-49a6-9f10-f1b1e336c9d6")
-	)
-	(wire
-		(pts
-			(xy 177.8 68.58) (xy 182.88 68.58)
+			(xy 166.37 120.65) (xy 171.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2990,57 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 137.16) (xy 124.46 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adbbcce4-2859-4bd0-90b0-e8adc69f2e0e")
-	)
-	(wire
-		(pts
-			(xy 170.18 96.52) (xy 180.34 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03136f7-15a9-455c-92db-dbc08711d4c6")
-	)
-	(wire
-		(pts
-			(xy 255.27 91.44) (xy 255.27 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a9aa38-a4c6-48d9-bd82-a7bf29989f31")
-	)
-	(wire
-		(pts
-			(xy 110.49 83.82) (xy 118.11 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b269827f-c588-4368-a1d7-baad6076990f")
-	)
-	(wire
-		(pts
-			(xy 73.66 87.63) (xy 78.74 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b44cf14a-318c-42b3-a717-f5721fabc2c5")
-	)
-	(wire
-		(pts
-			(xy 177.8 66.04) (xy 182.88 66.04)
+			(xy 166.37 118.11) (xy 171.45 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3050,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 50.8) (xy 99.06 50.8)
+			(xy 125.73 102.87) (xy 87.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3060,7 +2011,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 55.88) (xy 107.95 58.42)
+			(xy 96.52 107.95) (xy 96.52 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3070,47 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 149.86) (xy 137.16 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0eb3d63-468a-4d08-9b8e-0ec4fd191215")
-	)
-	(wire
-		(pts
-			(xy 40.64 165.1) (xy 40.64 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c93df1d1-9a29-42ae-b0d9-7ce414134a89")
-	)
-	(wire
-		(pts
-			(xy 124.46 182.88) (xy 124.46 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c970cb29-ebeb-40ce-aa25-679cb1ee74e7")
-	)
-	(wire
-		(pts
-			(xy 35.56 165.1) (xy 40.64 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9f7eed9-9fd5-4f42-8ec9-ff57e889c41d")
-	)
-	(wire
-		(pts
-			(xy 137.16 55.88) (xy 107.95 55.88)
+			(xy 125.73 107.95) (xy 96.52 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3120,47 +2031,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 160.02) (xy 78.74 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd9125a8-6f62-4a01-a5cf-d4d6ea04e072")
-	)
-	(wire
-		(pts
-			(xy 265.43 93.98) (xy 257.81 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1d1331b-f903-47ee-92e4-ecfdb1e0ee55")
-	)
-	(wire
-		(pts
-			(xy 165.1 132.08) (xy 170.18 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a27fa3-90dc-45f1-b1aa-e95409b44fbc")
-	)
-	(wire
-		(pts
-			(xy 119.38 165.1) (xy 124.46 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5257ff4-2a8f-4908-a987-886602e93611")
-	)
-	(wire
-		(pts
-			(xy 93.98 50.8) (xy 99.06 50.8)
+			(xy 82.55 102.87) (xy 87.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 58.42) (xy 107.95 58.42)
+			(xy 125.73 110.49) (xy 96.52 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3180,37 +2051,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 149.86) (xy 124.46 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db38f955-0fb6-47e1-94bd-0287fdaed5b5")
-	)
-	(wire
-		(pts
-			(xy 95.25 116.84) (xy 95.25 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc1e28ef-e577-4098-8898-c98f95aca107")
-	)
-	(wire
-		(pts
-			(xy 165.1 106.68) (xy 250.19 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd8cc277-1cfd-41b3-b39c-fbe0786b8f03")
-	)
-	(wire
-		(pts
-			(xy 177.8 71.12) (xy 182.88 71.12)
+			(xy 166.37 123.19) (xy 171.45 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3220,87 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 106.68) (xy 124.46 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0aa53c2-fb87-431c-ad2c-aff4480dcdcd")
-	)
-	(wire
-		(pts
-			(xy 119.38 160.02) (xy 257.81 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e215c851-a218-4d69-9929-a49afd6ca971")
-	)
-	(wire
-		(pts
-			(xy 55.88 133.35) (xy 55.88 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2adef44-20fb-410a-a867-ad3386afa9c1")
-	)
-	(wire
-		(pts
-			(xy 170.18 127) (xy 170.18 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e558de07-b34c-4125-ab47-e54b841fc4ff")
-	)
-	(wire
-		(pts
-			(xy 165.1 129.54) (xy 170.18 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e582e340-dfc0-42b5-9e15-112543a789cd")
-	)
-	(wire
-		(pts
-			(xy 87.63 99.06) (xy 124.46 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7c45a81-bcbd-4dcc-805b-5cf73cb0ab0f")
-	)
-	(wire
-		(pts
-			(xy 124.46 92.71) (xy 124.46 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9bd1b92-c645-4ece-be82-6b8b696a133d")
-	)
-	(wire
-		(pts
-			(xy 73.66 80.01) (xy 73.66 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9e46b65-e353-44a7-b5ed-caebb79769db")
-	)
-	(wire
-		(pts
-			(xy 86.36 19.05) (xy 86.36 20.32)
+			(xy 74.93 71.12) (xy 74.93 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3310,17 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 96.52) (xy 124.46 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f659b5e2-b0f2-4151-8971-da8d53fc1f25")
-	)
-	(wire
-		(pts
-			(xy 114.3 31.75) (xy 114.3 27.94)
+			(xy 102.87 83.82) (xy 102.87 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3330,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 45.72) (xy 137.16 45.72)
+			(xy 100.33 97.79) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3340,17 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 83.82) (xy 124.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa4fc348-9ca3-4493-92a0-956784d4d99e")
-	)
-	(wire
-		(pts
-			(xy 182.88 68.58) (xy 182.88 71.12)
+			(xy 171.45 120.65) (xy 171.45 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3358,327 +2099,53 @@
 		)
 		(uuid "faf5e63a-d619-44e2-ba6c-dfb52c2a0060")
 	)
-	(wire
-		(pts
-			(xy 78.74 146.05) (xy 55.88 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf13d64-233c-43a0-8fda-62d7a7c2dac4")
-	)
-	(wire
-		(pts
-			(xy 33.02 140.97) (xy 45.72 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1fedef-e6e1-4090-9daa-9476c0e242ac")
-	)
-	(wire
-		(pts
-			(xy 64.77 111.76) (xy 71.12 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff0ecf42-e3f3-4489-8987-a2a737326671")
-	)
-	(global_label "GPIO8"
-		(shape input)
-		(at 99.06 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2181cf72-d7d4-4bb6-b351-77588e9b232c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.39 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO4"
+	(hierarchical_label "IPROPI"
 		(shape output)
-		(at 64.77 111.76 180)
-		(fields_autoplaced yes)
+		(at 54.61 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2628e69e-19f2-47dd-8504-3f3627dd7d41")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.1 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "0734e9f7-e94e-4986-ab5b-a8395251dd69")
 	)
-	(global_label "GPIO7"
+	(hierarchical_label "DIR{slash}IN2"
 		(shape input)
-		(at 99.06 104.14 180)
-		(fields_autoplaced yes)
+		(at 100.33 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "589ba6c9-09d3-4ae5-a5b9-1609cf2e16e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.39 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "13958aa2-1fdd-4ae7-8707-0ac6d7bda70e")
 	)
-	(global_label "GPIO21"
+	(hierarchical_label "EN{slash}IN1"
 		(shape input)
-		(at 193.04 35.56 0)
-		(fields_autoplaced yes)
+		(at 100.33 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aeba88ad-1e40-48d5-b0e2-cdfd995c630e")
+	)
+	(hierarchical_label "NFAULT"
+		(shape output)
+		(at 181.61 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7a22eda9-57be-4750-be22-cc7356f3ab88")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.9195 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO5"
-		(shape output)
-		(at 21.59 165.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f96e0c5-7bc2-4c51-988b-b01147a30e19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.92 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO9"
-		(shape input)
-		(at 53.34 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "849e6396-f8f0-46c1-9748-4b48b9e4edce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.67 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO3"
-		(shape output)
-		(at 77.47 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d532b14-98ee-434d-81b6-543725b611b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.8 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO21"
-		(shape input)
-		(at 137.16 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a5f69663-1ccf-479c-818e-d7df8512341a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.0395 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO10"
-		(shape input)
-		(at 53.34 160.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0c13726-823f-4b1f-b67b-df3af6fb390d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.4605 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO1"
-		(shape input)
-		(at 111.76 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d4928cfd-4790-4c91-879c-115601dc449d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.09 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO2"
-		(shape input)
-		(at 111.76 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fac438b6-bb8a-4d5e-9748-78d087ec3f6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.09 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GPIO21"
-		(shape input)
-		(at 180.34 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fce144d1-6d5e-4f86-b840-9c273dcfdb98")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.2195 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "feac085d-d6cf-4f5e-9541-c50a3cd65077")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 88.9 0)
+		(lib_id "Connector:TestPoint")
+		(at 72.39 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3686,31 +2153,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03e1e781-84a8-40fa-b2ee-0b2826881090")
-		(property "Reference" "#PWR054"
-			(at 110.49 95.25 0)
-			(hide yes)
+		(uuid "05e57a9d-a812-4a02-a177-74219b50634c")
+		(property "Reference" "TP3"
+			(at 74.93 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 110.49 93.98 0)
+		(property "Value" "TestPoint"
+			(at 74.93 100.8379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.49 88.9 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 77.47 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3721,7 +2188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 88.9 0)
+			(at 77.47 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3731,8 +2198,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 88.9 0)
+		(property "Description" "test point"
+			(at 72.39 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3743,18 +2210,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8487324d-a5a3-4d39-be85-47c2168b8f93")
+			(uuid "858d8144-7adf-4252-a0a9-c1bb4992568e")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR054")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "TP5")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR052")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
+					(reference "TP3")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -3762,179 +2231,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 110.49 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0920bf6e-0956-4e80-84a1-50302e1a3f05")
-		(property "Reference" "C16"
-			(at 114.3 87.122 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 114.3 85.344 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 110.49 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 110.49 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a7c9f782-833e-47fd-9cc9-9c999ddd77c1")
-		)
-		(pin "1"
-			(uuid "b6784981-3088-4cb2-9ac9-abf70e88d549")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 86.36 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ab4f32f-5913-44c8-a286-9e94c153fef9")
-		(property "Reference" "R16"
-			(at 81.788 117.348 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.74K"
-			(at 80.01 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 86.36 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 86.36 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "43ab21f7-8e0a-4f83-9345-72d0c53ca31d")
-		)
-		(pin "1"
-			(uuid "133b6ed5-9f80-412a-a06f-2cbb96f6c840")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 91.44 29.21 180)
+		(at 80.01 81.28 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3944,7 +2241,7 @@
 		(dnp no)
 		(uuid "0ba217c5-690b-4a74-b7d2-e6c7d92764ab")
 		(property "Reference" "C14"
-			(at 95.25 29.972 0)
+			(at 83.82 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3954,7 +2251,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 96.012 28.194 0)
+			(at 84.582 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3964,7 +2261,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 91.44 29.21 0)
+			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3975,7 +2272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 29.21 0)
+			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3986,7 +2283,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 91.44 29.21 0)
+			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3997,442 +2294,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "50e0c09e-09b8-422a-a581-6f340efef085")
+			(uuid "08fc106d-dbf1-4926-8392-2ca7b1f775c3")
 		)
 		(pin "1"
-			(uuid "7351af67-5439-4eb2-90b4-77ce0433da1b")
+			(uuid "e80b09d0-ca5c-44dc-8649-1ef8e41661d4")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "C14")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 118.11 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d3bf880-86e8-4ad2-a585-b913df97552a")
-		(property "Reference" "C18"
-			(at 121.92 87.122 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 121.92 85.344 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 118.11 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 118.11 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b2061658-27f4-4f98-ba53-7079f5b2867f")
-		)
-		(pin "1"
-			(uuid "2a977ebc-aa0d-400b-9efb-6f3eed11564e")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "138661d1-761f-42de-87d8-16158ceb62e5")
-		(property "Reference" "#PWR055"
-			(at 118.11 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc48f259-feb1-4290-9701-2ddb36738180")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1488189b-3b29-499f-8147-d0a749c2a4d0")
-		(property "Reference" "#PWR037"
-			(at 71.12 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75efd02f-3e16-4fdd-8eb7-2d19a9eba196")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b165f0c-c279-4118-84fd-6a36aeb94262")
-		(property "Reference" "#PWR038"
-			(at 72.39 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea5a731a-b9f4-4111-8aa3-a76290b6a456")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e4d6f6b-a9b3-4b2f-af23-6dde0d38a7c3")
-		(property "Reference" "#PWR045"
-			(at 86.36 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd8e5f5d-33c6-47e4-ac9a-fbc8abbc83b8")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR043")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4440,7 +2318,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 100.33 38.1 0)
+		(at 88.9 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4450,7 +2328,7 @@
 		(dnp no)
 		(uuid "1fd6b279-f0d4-453d-bb5a-008acf33421a")
 		(property "Reference" "#PWR050"
-			(at 100.33 41.91 0)
+			(at 88.9 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,7 +2339,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 100.076 34.798 0)
+			(at 88.646 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4471,7 +2349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 38.1 0)
+			(at 88.9 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4482,7 +2360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 38.1 0)
+			(at 88.9 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4493,7 +2371,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 100.33 38.1 0)
+			(at 88.9 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4504,18 +2382,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "d450d8ca-5783-4c4e-88f1-9a666e6561ce")
+			(uuid "d882af6a-9f74-4214-a3b8-7879f266bbcd")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR050")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR048")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -4523,92 +2403,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 170.18 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22c3f260-4c04-47a5-8b51-977edc4496a2")
-		(property "Reference" "#PWR061"
-			(at 170.18 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 172.72 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 170.18 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e8325d3-b888-4d3a-ab6f-583ce137bee2")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 86.36 19.05 0)
+		(at 74.93 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4618,7 +2413,7 @@
 		(dnp no)
 		(uuid "27106419-9c79-47ad-8971-225248a0f4e9")
 		(property "Reference" "#PWR043"
-			(at 86.36 22.86 0)
+			(at 74.93 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4629,7 +2424,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 86.106 15.748 0)
+			(at 74.676 67.818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4639,7 +2434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 19.05 0)
+			(at 74.93 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4650,7 +2445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 19.05 0)
+			(at 74.93 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4661,7 +2456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 86.36 19.05 0)
+			(at 74.93 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,18 +2467,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a02cd416-2dba-47fa-abfd-b01a1899a5e3")
+			(uuid "ae9f1c76-faf5-4a47-a9b8-0a5f5ccf1838")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR043")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR041")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -4691,179 +2488,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 172.72 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b43545a-93ab-45df-9045-9c2eef869987")
-		(property "Reference" "C22"
-			(at 178.816 113.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.022u"
-			(at 179.578 110.744 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 172.72 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 172.72 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "71f34b71-7cf1-4783-8251-e0cac2a27e41")
-		)
-		(pin "1"
-			(uuid "5a1c9d3d-7b38-4e08-a354-8b13603d4014")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 78.74 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "32f08434-6fb5-4cc2-b717-42e99f6ff749")
-		(property "Reference" "R13"
-			(at 79.502 115.824 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 80.899 113.919 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 78.74 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 78.74 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c41e41cb-be15-47b3-9235-b18623f7d996")
-		)
-		(pin "1"
-			(uuid "f120cb2f-764c-4593-8b47-55807ea0b1e6")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 185.42 50.8 90)
+		(at 173.99 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4873,7 +2498,7 @@
 		(dnp no)
 		(uuid "36d5fac8-38f4-4348-97c1-3e809e54f5d8")
 		(property "Reference" "C23"
-			(at 191.516 52.07 90)
+			(at 180.086 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4883,7 +2508,7 @@
 			)
 		)
 		(property "Value" "0.022u"
-			(at 192.278 49.784 90)
+			(at 180.848 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4893,7 +2518,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 185.42 50.8 0)
+			(at 173.99 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4904,7 +2529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 50.8 0)
+			(at 173.99 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4915,7 +2540,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 185.42 50.8 0)
+			(at 173.99 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,21 +2551,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "736f9411-efad-4494-9cdd-57a2cb6ec240")
+			(uuid "d2471344-9b82-489c-98a8-bd98828ecec4")
 		)
 		(pin "1"
-			(uuid "4c63679d-878c-498a-9681-81f9ccc1444e")
+			(uuid "021b395b-b71c-4ebd-9fcc-ebfdc3d67a8f")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "C23")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C1")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -4948,7 +2575,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 182.88 27.94 0)
+		(at 171.45 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4959,7 +2586,7 @@
 		(fields_autoplaced yes)
 		(uuid "3799abc1-99e7-4125-b3f2-1dcce64cee14")
 		(property "Reference" "R21"
-			(at 185.42 26.6699 0)
+			(at 173.99 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4970,7 +2597,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 185.42 29.2099 0)
+			(at 173.99 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4981,7 +2608,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 182.88 27.94 0)
+			(at 171.45 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4992,7 +2619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 27.94 0)
+			(at 171.45 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5003,7 +2630,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 182.88 27.94 0)
+			(at 171.45 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5014,21 +2641,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "254e1926-83fd-4ccc-98cb-1352f8cf2189")
+			(uuid "9a595d24-19d6-4957-91d4-c225dbf795b9")
 		)
 		(pin "1"
-			(uuid "5dc13a46-7dae-4797-b659-f6f977039002")
+			(uuid "b7d1beef-5895-451b-a8af-9b8ee8d73c2f")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "R21")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R1")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -5036,7 +2665,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 86.36 29.21 0)
+		(at 74.93 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5046,7 +2675,7 @@
 		(dnp no)
 		(uuid "39b2ce1b-2d97-4543-9fa1-e0b4ff81e2a2")
 		(property "Reference" "R15"
-			(at 82.804 27.686 0)
+			(at 71.374 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5057,7 +2686,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 81.026 30.226 0)
+			(at 69.596 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5068,7 +2697,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 86.36 29.21 0)
+			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5079,7 +2708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 29.21 0)
+			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5090,7 +2719,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 86.36 29.21 0)
+			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5101,104 +2730,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "89f05b22-2856-45b4-9762-ad294f632266")
+			(uuid "82d90038-84cf-4ee7-af1c-4f6b3d918fdc")
 		)
 		(pin "1"
-			(uuid "c70b6285-351e-489d-892c-4e04f5c746c1")
+			(uuid "f0edc075-2516-4677-bb73-5e089b7bb9f2")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "R15")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 27.94 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ae05578-e8e4-46ed-8896-533e60ee1453")
-		(property "Reference" "#PWR029"
-			(at 27.94 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 27.94 152.908 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24741532-b2f5-4b8f-83f0-9b029964a06c")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR027")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5206,265 +2754,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 33.02 165.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4018ecc9-228e-44f7-a34c-cf4490906b5b")
-		(property "Reference" "R9"
-			(at 33.782 169.164 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 35.179 167.259 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 33.02 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 33.02 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "67888d03-ce20-49b7-b7ec-df50408dc45f")
-		)
-		(pin "1"
-			(uuid "4470b40d-869c-4a56-9f65-825c7723b7a8")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 73.66 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4138da33-7e79-4024-8424-762dedbd68fd")
-		(property "Reference" "R11"
-			(at 76.2 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.21K"
-			(at 76.2 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 73.66 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6da14442-e913-4a81-a952-a557d2ce23d9")
-		)
-		(pin "1"
-			(uuid "a49d6f8c-1d75-4891-8d13-3f56d4ef688c")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 73.66 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "471917e5-a85b-4314-8254-b23b3597b6df")
-		(property "Reference" "#PWR039"
-			(at 73.66 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 73.66 75.946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3290037e-ca1b-463f-9210-5c8d63f01f07")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 86.36 22.86 0)
+		(at 74.93 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5475,7 +2765,7 @@
 		(fields_autoplaced yes)
 		(uuid "489cf213-49c1-43e7-85ff-90f88fb30644")
 		(property "Reference" "R14"
-			(at 88.9 21.5899 0)
+			(at 77.47 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5486,7 +2776,7 @@
 			)
 		)
 		(property "Value" "2.21K"
-			(at 88.9 24.1299 0)
+			(at 77.47 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5497,7 +2787,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 86.36 22.86 0)
+			(at 74.93 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +2798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 22.86 0)
+			(at 74.93 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5519,7 +2809,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 86.36 22.86 0)
+			(at 74.93 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,105 +2820,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "e2c91c40-a811-4567-b6bb-ba92d041e138")
+			(uuid "3b655ff7-3ab2-44dd-99d4-ea72efbe4ee6")
 		)
 		(pin "1"
-			(uuid "49dff195-192d-4940-b00f-0a138dd5dc58")
+			(uuid "25eeaf2d-793c-4ac9-b793-5e250d6198f2")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "R14")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 64.77 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bedb655-3b18-4f5f-865a-76a2e9cf0e3b")
-		(property "Reference" "#PWR035"
-			(at 64.77 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 64.77 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 64.77 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0137f3ed-f90b-4ab7-8c51-7fe7cdc8e91d")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR033")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5636,7 +2844,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 34.29 0)
+		(at 74.93 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5646,7 +2854,7 @@
 		(dnp no)
 		(uuid "4e3cf22a-18d0-4ec8-aa14-63cc7ae13018")
 		(property "Reference" "#PWR044"
-			(at 86.36 40.64 0)
+			(at 74.93 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5657,7 +2865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 38.608 0)
+			(at 74.93 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5667,7 +2875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 34.29 0)
+			(at 74.93 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5678,7 +2886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 34.29 0)
+			(at 74.93 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,7 +2897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 34.29 0)
+			(at 74.93 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5700,18 +2908,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "85e30573-bff7-4fac-ba3e-4f458a9fbcbb")
+			(uuid "6d6eccef-d757-464c-88ca-b069a4325bc3")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR048")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR044")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR04")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5719,433 +2929,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 33.02 143.51 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "57c994eb-71c5-4797-8233-d7f9fd133928")
-		(property "Reference" "C7"
-			(at 36.83 144.272 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 37.592 142.494 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 33.02 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 33.02 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6e6e527a-9b19-4558-ae60-89ccf299805b")
-		)
-		(pin "1"
-			(uuid "b45eadbe-32a2-438c-9951-6e8f1dec91ec")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 101.6 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5822342b-e7fd-416e-841f-119a4f3e042b")
-		(property "Reference" "#PWR051"
-			(at 101.6 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 101.6 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 101.6 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e8e6ffe-a766-473a-9c2c-c88bc6d1841d")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 27.94 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5acfa000-3a01-40e3-9640-7c913c0dd14f")
-		(property "Reference" "R7"
-			(at 30.48 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.21K"
-			(at 30.48 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 27.94 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 27.94 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d0a4a0b8-7642-4a44-ac61-ffe1fac614ee")
-		)
-		(pin "1"
-			(uuid "a64f0817-ab91-4670-aa37-027c41bc2d0b")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e84d636-6aa9-409b-b4f7-bff5af6c37c4")
-		(property "Reference" "#PWR036"
-			(at 64.77 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6899d110-df56-499d-81f2-6ac931758f26")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 101.6 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6419e593-7beb-49d4-8137-46307c99b872")
-		(property "Reference" "C15"
-			(at 105.41 87.122 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 106.172 85.344 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 101.6 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 101.6 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fface066-31b4-438d-b4f0-a1797eaee91a")
-		)
-		(pin "1"
-			(uuid "c6fdcf55-abb6-4b22-a0e6-7af1e8725c96")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 123.19 25.4 180)
+		(at 111.76 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6155,7 +2939,7 @@
 		(dnp no)
 		(uuid "6522d709-ad21-4b1d-add9-c6bc2e30b4bf")
 		(property "Reference" "C19"
-			(at 127 26.162 0)
+			(at 115.57 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6165,7 +2949,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 127 24.384 0)
+			(at 115.57 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6175,7 +2959,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 123.19 25.4 0)
+			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6186,7 +2970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 25.4 0)
+			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6197,7 +2981,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 123.19 25.4 0)
+			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6208,106 +2992,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "3754887d-a002-4c68-aa81-9af4d3b8ba77")
+			(uuid "505fe637-2467-4abb-a412-6701d7902552")
 		)
 		(pin "1"
-			(uuid "3fb1f4de-5648-411b-b8df-87b5093ec8ce")
+			(uuid "29839b9b-a59b-4a7a-ab4e-7c59588a5bd0")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "C19")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 72.39 139.7 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65dcc7ea-e8cd-4aa5-82c0-57b96e2469c0")
-		(property "Reference" "C11"
-			(at 76.2 140.462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 76.2 138.684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 72.39 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f4a2c2ce-0a30-41d9-8fcf-a76b744ff12e")
-		)
-		(pin "1"
-			(uuid "5524d3ed-9577-4c24-b356-270e224fa731")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C11")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -6315,7 +3016,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 74.93 0)
+		(at 171.45 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6326,7 +3027,7 @@
 		(fields_autoplaced yes)
 		(uuid "679888a2-5e13-4d39-b3b6-606100ddf408")
 		(property "Reference" "#PWR064"
-			(at 182.88 81.28 0)
+			(at 171.45 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6337,7 +3038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 80.01 0)
+			(at 171.45 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6347,7 +3048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 74.93 0)
+			(at 171.45 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6358,7 +3059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 74.93 0)
+			(at 171.45 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,7 +3070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 74.93 0)
+			(at 171.45 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6380,18 +3081,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "43e8dc15-a9a6-46fc-a50c-4b284e454ead")
+			(uuid "728fee8b-63c4-407a-ba0d-06766f690a84")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR064")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR02")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -6399,7 +3102,7 @@
 	)
 	(symbol
 		(lib_id "Driver_Motor:DRV8876PWPR")
-		(at 157.48 48.26 0)
+		(at 146.05 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6410,7 +3113,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a82fd9f-4eaa-4301-b517-78df54bd6f87")
 		(property "Reference" "U5"
-			(at 157.48 17.78 0)
+			(at 146.05 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6420,7 +3123,7 @@
 			)
 		)
 		(property "Value" "DRV8876PWPR"
-			(at 157.48 20.32 0)
+			(at 146.05 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6430,7 +3133,7 @@
 			)
 		)
 		(property "Footprint" "Motors:moto"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6442,7 +3145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6453,7 +3156,7 @@
 			)
 		)
 		(property "Description" "40-V, 3.5-A H-bridge motor driver with integrated current sensing & current-sense feedback"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +3168,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6477,7 +3180,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6489,7 +3192,7 @@
 			)
 		)
 		(property "PACKAGE" "HTSSOP-16 Texas Instruments"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6501,7 +3204,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6513,7 +3216,7 @@
 			)
 		)
 		(property "Package" "HTSSOP-16 Texas Instruments"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6525,7 +3228,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DRV8876PWPR/Texas+Instruments/view-part/?ref=eda"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6537,7 +3240,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6549,7 +3252,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6561,7 +3264,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8876PWPR/Texas+Instruments/view-part/?ref=snap"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,7 +3276,7 @@
 			)
 		)
 		(property "MP" "DRV8876PWPR"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6585,7 +3288,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +3300,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 157.48 48.26 0)
+			(at 146.05 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6609,149 +3312,68 @@
 			)
 		)
 		(pin "14"
-			(uuid "8a350daa-a95a-4ca8-8483-9c0ffc434241")
+			(uuid "5d786e3d-8949-4886-bf83-08d009622350")
 		)
 		(pin "4"
-			(uuid "b52339f5-02b1-4928-bff5-a6f03f62c568")
+			(uuid "86c6f755-40ec-4fd8-843e-a93823d2f945")
 		)
 		(pin "1"
-			(uuid "5fb74a04-1e2a-4d94-9d71-37094948fe98")
+			(uuid "554b96cf-2e6d-4fff-9dd6-f1a4a89d9216")
 		)
 		(pin "2"
-			(uuid "861cef72-2e70-471e-a85a-520521b96a92")
+			(uuid "a3337d87-e94f-4598-ab5b-1bde4da6f124")
 		)
 		(pin "13"
-			(uuid "347d6e18-fd4f-4db7-b2f5-89f7733c22b2")
+			(uuid "4dc144ef-e322-404f-b434-d13d40313fe6")
 		)
 		(pin "3"
-			(uuid "dc6b599c-3c69-4909-8ada-adcfa804ddbd")
+			(uuid "0ac5083c-d1e4-4c9e-b43d-5210f033e67d")
 		)
 		(pin "16"
-			(uuid "51a8d9a9-7f0e-4f39-a0f7-bc69f177630c")
+			(uuid "ef11cbca-2234-4c69-a226-e19e2b76f2a9")
 		)
 		(pin "17"
-			(uuid "f32be89c-fa01-424e-8623-495f7b0f01e8")
+			(uuid "b7c60d48-b856-4349-969d-29cc3ac2242f")
 		)
 		(pin "15"
-			(uuid "7e4e1256-497a-46e3-a4f3-89ca0b659cdf")
+			(uuid "977df1a9-e7d7-4939-b179-85d165d73634")
 		)
 		(pin "12"
-			(uuid "3a95da11-4876-4bca-b1cb-dbda5d187fb9")
+			(uuid "9a729d6d-302a-435f-b267-ab24a567edf8")
 		)
 		(pin "11"
-			(uuid "f1facff2-2c0b-4a28-b509-92104bf1faee")
+			(uuid "f23e7e34-eee8-4c66-84a0-ad635f6e6301")
 		)
 		(pin "10"
-			(uuid "6892f349-1ea7-4877-ba10-8c083802dd6d")
+			(uuid "6c6152da-ec6d-4ce4-b3bb-d1a360d04a9b")
 		)
 		(pin "9"
-			(uuid "c4fe659b-79f6-4000-9b07-6d213d3ab4fe")
+			(uuid "477f3f5f-6bf6-4e06-9f6b-e846d8b49954")
 		)
 		(pin "8"
-			(uuid "9100b896-a801-4975-af1e-4f1b460cfe2f")
+			(uuid "d6dbab63-7f1c-452b-8dd1-30288353d060")
 		)
 		(pin "7"
-			(uuid "3483eff7-a8ae-4432-8d56-8ba26626fe24")
+			(uuid "9650ae7f-4d07-4787-bcca-78445f713d8d")
 		)
 		(pin "6"
-			(uuid "618f9d37-3fae-4dc9-9d61-ee64edb66a06")
+			(uuid "d1e7ac7d-3941-42ed-af58-155249fa30aa")
 		)
 		(pin "5"
-			(uuid "1a731494-ef7e-46ad-a50e-69f32063624e")
+			(uuid "6b29b4d1-cede-4c60-a5c8-238c9f5781a0")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "U5")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 87.63 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c12d9fb-d194-4dc2-83a0-270c58387a77")
-		(property "Reference" "#PWR046"
-			(at 87.63 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 87.376 95.758 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 87.63 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b752283-636d-4cde-9d6b-1f4bcfb7903b")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR044")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6759,7 +3381,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 27.94 0)
+		(at 111.76 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6770,7 +3392,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cd7b9f4-729a-433e-835f-0eba3adfb063")
 		(property "Reference" "#PWR057"
-			(at 123.19 34.29 0)
+			(at 111.76 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6781,7 +3403,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 33.02 0)
+			(at 111.76 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6791,7 +3413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 27.94 0)
+			(at 111.76 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6802,7 +3424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 27.94 0)
+			(at 111.76 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6813,7 +3435,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 27.94 0)
+			(at 111.76 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6824,18 +3446,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "4bcb49ed-8c34-4526-a9c9-818433c23558")
+			(uuid "9b7ab68b-81a5-4ac1-b279-6c96049570e2")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR057")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR010")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -6843,7 +3467,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 99.06 55.88 0)
+		(at 87.63 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6853,7 +3477,7 @@
 		(dnp no)
 		(uuid "6e729a99-175d-4f1a-ab96-7705166d89fa")
 		(property "Reference" "R18"
-			(at 94.488 56.388 0)
+			(at 83.058 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6864,7 +3488,7 @@
 			)
 		)
 		(property "Value" "2.74K"
-			(at 92.71 58.42 0)
+			(at 81.28 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6875,7 +3499,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.06 55.88 0)
+			(at 87.63 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6886,7 +3510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 55.88 0)
+			(at 87.63 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6897,7 +3521,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 99.06 55.88 0)
+			(at 87.63 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6908,29 +3532,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "f7a0e9a8-de5e-4cce-bab3-1c8b2fcdeca9")
+			(uuid "c303c9e8-1152-4b9f-b8bb-854ec5358d79")
 		)
 		(pin "1"
-			(uuid "3145a7b1-d539-463a-a4a0-6437f1e6b652")
+			(uuid "028ad4cc-3ab2-44c0-ad7e-96ebc1d548d7")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "R18")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R4")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "R27")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 73.66 95.25 0)
+		(lib_id "Connector:TestPoint")
+		(at 179.07 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6938,30 +3564,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "74482e31-17d2-44d3-bd16-ea02d946699a")
-		(property "Reference" "#PWR040"
-			(at 73.66 101.6 0)
-			(hide yes)
+		(uuid "74a776e7-1d5d-4fbd-a2e9-172947a692b1")
+		(property "Reference" "TP4"
+			(at 181.61 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 73.66 99.568 0)
+		(property "Value" "TestPoint"
+			(at 181.61 85.5979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.66 95.25 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 184.15 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6972,7 +3599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 95.25 0)
+			(at 184.15 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6982,8 +3609,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 95.25 0)
+		(property "Description" "test point"
+			(at 179.07 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,18 +3621,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8c2875d-b65c-43e8-9a06-8ecdeea18dc8")
+			(uuid "34d5eae4-5509-4de6-ae74-08a4a88cd7e4")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR040")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "TP6")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR038")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
+					(reference "TP4")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -7013,7 +3642,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 182.88 22.86 0)
+		(at 171.45 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7024,7 +3653,7 @@
 		(fields_autoplaced yes)
 		(uuid "759ec9c4-8af7-4915-82ce-c5d95851753b")
 		(property "Reference" "#PWR063"
-			(at 182.88 26.67 0)
+			(at 171.45 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7035,7 +3664,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 185.42 21.5899 0)
+			(at 173.99 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7046,7 +3675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 22.86 0)
+			(at 171.45 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7057,7 +3686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 22.86 0)
+			(at 171.45 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7068,7 +3697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 182.88 22.86 0)
+			(at 171.45 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7079,380 +3708,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "6afee793-ece8-41af-a62c-7793b4016316")
+			(uuid "ce2115bd-52c9-4ca7-96a6-c9a68d55616d")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR063")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:DRV8876PWPR")
-		(at 99.06 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7be044d2-d29a-44a6-9171-e5cd442f31af")
-		(property "Reference" "U3"
-			(at 99.06 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DRV8876PWPR"
-			(at 99.06 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Motors:moto"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40-V, 3.5-A H-bridge motor driver with integrated current sensing & current-sense feedback"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "HTSSOP-16 Texas Instruments"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "HTSSOP-16 Texas Instruments"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DRV8876PWPR/Texas+Instruments/view-part/?ref=eda"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8876PWPR/Texas+Instruments/view-part/?ref=snap"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "DRV8876PWPR"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 99.06 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "14"
-			(uuid "8ccd27e4-7c5f-4bf2-904a-8cf9fb896257")
-		)
-		(pin "4"
-			(uuid "172fa1f1-c07f-48cf-835d-03927da96829")
-		)
-		(pin "1"
-			(uuid "b56dd9cf-cb5d-4b4a-9940-6262eb0c9776")
-		)
-		(pin "2"
-			(uuid "eb044243-c52a-4e64-9ebc-ca392538f1dc")
-		)
-		(pin "13"
-			(uuid "3d18deb4-d4ed-411e-b0a8-2f6a704f244d")
-		)
-		(pin "3"
-			(uuid "6ab0e716-c630-44bb-a80a-c23c09d1a6c1")
-		)
-		(pin "16"
-			(uuid "c4b9ab28-d1e6-4413-99fb-a7b96ec2062f")
-		)
-		(pin "17"
-			(uuid "497d3e5e-3c08-46ca-9552-9ec98cbb3ac5")
-		)
-		(pin "15"
-			(uuid "de399685-8dff-42c0-b9d0-682603d402fd")
-		)
-		(pin "12"
-			(uuid "9310d4a3-6a58-401e-90c5-8ffdb896071d")
-		)
-		(pin "11"
-			(uuid "31821378-6c94-4dce-bccb-5e4b33c6afa3")
-		)
-		(pin "10"
-			(uuid "0bd5f7af-4d65-496b-86dc-5a8bf5e00de7")
-		)
-		(pin "9"
-			(uuid "df67f6f6-5dbf-402b-b798-9d111c0da9ba")
-		)
-		(pin "8"
-			(uuid "9b1d63be-f53e-4875-bc4c-1cf9b00556bc")
-		)
-		(pin "7"
-			(uuid "c54a8a38-424e-4a56-8e85-fb8858ea75ed")
-		)
-		(pin "6"
-			(uuid "b740ca86-d16a-4206-8f6c-cc4717907a8e")
-		)
-		(pin "5"
-			(uuid "d1a5c588-d081-4b28-bce4-7beefeaeb773")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 127 165.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "80a30f87-1287-4c50-b9b6-1880c571ccea")
-		(property "Reference" "C20"
-			(at 133.096 166.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.022u"
-			(at 133.858 164.084 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 127 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 127 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2fac127a-e0ab-4d0a-b714-584992139bf4")
-		)
-		(pin "1"
-			(uuid "46afb23c-2ab4-4d64-8561-4c207057d24a")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C20")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -7460,7 +3729,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 34.29 0)
+		(at 80.01 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7470,7 +3739,7 @@
 		(dnp no)
 		(uuid "80bef2de-bc07-4dda-b773-8823f09cf2f3")
 		(property "Reference" "#PWR047"
-			(at 91.44 40.64 0)
+			(at 80.01 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7481,7 +3750,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 38.862 0)
+			(at 80.01 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7491,7 +3760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 34.29 0)
+			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7502,7 +3771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 34.29 0)
+			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7513,7 +3782,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 34.29 0)
+			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7524,26 +3793,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "33255f58-9c88-47d6-89c8-90d24aa209f5")
+			(uuid "3e0e6e89-07d1-48ed-a107-d521fa6226ee")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR047")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR05")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 95.25 0)
+		(lib_id "Motor:Motor_DC")
+		(at 204.47 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7551,30 +3822,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8161acbe-6637-485f-8a22-c697c1412db1")
-		(property "Reference" "#PWR041"
-			(at 78.74 101.6 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "8eba0982-fdf8-47dd-bc36-462ea9bae693")
+		(property "Reference" "M1"
+			(at 209.55 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 78.74 99.822 0)
+		(property "Value" "Motor_DC"
+			(at 209.55 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 78.74 95.25 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 204.47 97.536 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7585,7 +3858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 95.25 0)
+			(at 204.47 97.536 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7595,8 +3868,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 95.25 0)
+		(property "Description" "DC Motor"
+			(at 204.47 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7607,103 +3880,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "582e4d7c-7a00-446b-810f-10c21f8e9e76")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.12 116.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8d2e9150-a159-4dc0-bfc8-e9f489307c89")
-		(property "Reference" "C10"
-			(at 67.056 117.602 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 67.818 115.824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 71.12 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "33c6b37c-4517-4241-98f2-5b7db801ef5d")
 		)
 		(pin "2"
-			(uuid "5317e198-8c29-440c-8273-ea67e5ecafe8")
-		)
-		(pin "1"
-			(uuid "4ad40c76-4a2f-4c75-9b76-588d53baf3d3")
+			(uuid "b571f4b7-4a2a-4943-b93c-bfe663c030f5")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C10")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "M2")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C10")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
+					(reference "M1")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "M3")
 					(unit 1)
 				)
 			)
@@ -7711,619 +3904,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92018739-f0fd-4927-baa7-ca50fa40ab79")
-		(property "Reference" "#PWR027"
-			(at 25.4 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1020d5a3-b279-4fb3-a0d2-276aeb9becf8")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 41.91 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "931acbc6-3c24-4e08-9e9e-ea005c30cbbb")
-		(property "Reference" "#PWR032"
-			(at 41.91 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 41.656 149.098 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 41.91 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d278b7b-f8c5-4b78-a707-7d31382360e7")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97b84757-b6fa-46fa-926a-2fa7674a47e9")
-		(property "Reference" "#PWR048"
-			(at 95.25 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82673eb6-cc59-4aa9-b446-2dec5964a19f")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9eab31f2-b454-4222-ac6f-44a9cbb89c38")
-		(property "Reference" "#PWR062"
-			(at 170.18 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "36a85941-dbb0-4a8b-b40f-2a0888426f54")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:DRV8876PWPR")
-		(at 144.78 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5c59184-d98d-4077-82b3-ec8ed85db6e4")
-		(property "Reference" "U4"
-			(at 144.78 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DRV8876PWPR"
-			(at 144.78 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Motors:moto"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40-V, 3.5-A H-bridge motor driver with integrated current sensing & current-sense feedback"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "HTSSOP-16 Texas Instruments"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "HTSSOP-16 Texas Instruments"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DRV8876PWPR/Texas+Instruments/view-part/?ref=eda"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DRV8876PWPR/Texas+Instruments/view-part/?ref=snap"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "DRV8876PWPR"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 144.78 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "14"
-			(uuid "3cc4afda-6daf-44f4-b190-415b52592edb")
-		)
-		(pin "4"
-			(uuid "5ba4d447-1b14-43e4-894a-441575df6bad")
-		)
-		(pin "1"
-			(uuid "06a0ec55-eb91-48b6-a60d-566d1c15b12e")
-		)
-		(pin "2"
-			(uuid "55a56dfa-9020-471c-90ca-521fc3513645")
-		)
-		(pin "13"
-			(uuid "c66bf7bd-98a4-40ac-953f-57f8b016246f")
-		)
-		(pin "3"
-			(uuid "715a9e74-b993-4f9d-acad-15b91a735d9a")
-		)
-		(pin "16"
-			(uuid "0cc7e5a8-f203-424c-a3e2-82e89ad1da4d")
-		)
-		(pin "17"
-			(uuid "2b8a50bd-2d40-4182-8dc6-9b61df4a04ba")
-		)
-		(pin "15"
-			(uuid "15755950-4c52-46a3-9097-54efc5dab521")
-		)
-		(pin "12"
-			(uuid "e18b3efd-e770-423c-8b37-803b6ce7e284")
-		)
-		(pin "11"
-			(uuid "53b55a5d-f7e9-4a98-8089-d939e266455b")
-		)
-		(pin "10"
-			(uuid "d2ccd677-dc6a-42e5-86a0-ccc5807877d8")
-		)
-		(pin "9"
-			(uuid "d79e1f4e-70a8-461b-8da5-469bfec09543")
-		)
-		(pin "8"
-			(uuid "e982b59b-90c4-457f-9d37-4b89a5660b6a")
-		)
-		(pin "7"
-			(uuid "a1196673-bcea-4ca3-8735-f474ad85fe8b")
-		)
-		(pin "6"
-			(uuid "06445394-d5f3-4144-841b-1be7839ffc52")
-		)
-		(pin "5"
-			(uuid "e078ec83-3213-46ce-913b-110e3db30afb")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 27.94 0)
+		(at 119.38 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8334,7 +3915,7 @@
 		(fields_autoplaced yes)
 		(uuid "a62da094-3d78-408c-af7c-425dfc2a0fe0")
 		(property "Reference" "#PWR060"
-			(at 130.81 34.29 0)
+			(at 119.38 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8345,7 +3926,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 33.02 0)
+			(at 119.38 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8355,7 +3936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 27.94 0)
+			(at 119.38 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8366,7 +3947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 27.94 0)
+			(at 119.38 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8377,7 +3958,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 27.94 0)
+			(at 119.38 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8388,105 +3969,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6887fab-f431-4ad6-804f-1088db161985")
+			(uuid "0ed5bdc9-479b-4014-ae5a-bd1f39e64dd4")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR060")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 27.94 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7b3ace4-a1bd-4115-b2bd-68b852b8fdc7")
-		(property "Reference" "R8"
-			(at 24.384 141.986 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 22.606 144.526 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 27.94 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 27.94 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "da6bb211-4595-4e0b-879e-bcf27cbaa803")
-		)
-		(pin "1"
-			(uuid "6633d104-2df6-443f-8551-9d9f94a8518a")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R8")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -8494,601 +3990,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 55.88 139.7 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b27761b9-9ad4-4057-b88e-1c7f74d70b0c")
-		(property "Reference" "C8"
-			(at 59.69 140.462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 60.452 138.684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 55.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 55.88 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d495c91c-edbb-434e-8ff3-0a5bfd88c224")
-		)
-		(pin "1"
-			(uuid "9346fdc4-6c68-4105-b801-01e3da55642c")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 27.94 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bcf493bc-70fc-466f-b8d1-0f931cfb4fca")
-		(property "Reference" "#PWR028"
-			(at 27.94 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 27.94 129.286 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 27.94 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21870c7e-9285-4c24-a1ae-0a6a0d7507fa")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 41.91 152.4 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be780bb7-9987-4d65-988c-2b0ce2845b19")
-		(property "Reference" "#FLG05"
-			(at 41.91 154.305 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 37.846 156.972 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 41.91 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3f580ea-04d0-4881-b023-642a5b79fdde")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 78.74 90.17 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf4125e3-1176-455e-a589-e1d00c3b88fd")
-		(property "Reference" "C12"
-			(at 82.55 90.932 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 83.312 89.154 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 78.74 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 78.74 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d89b0f24-8296-41f3-beb1-fb68816184c7")
-		)
-		(pin "1"
-			(uuid "63ce934d-7a72-41b5-a8b2-111b62bac397")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 64.77 139.7 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2712bbc-cc8d-4834-8061-2fdafe4551b2")
-		(property "Reference" "C9"
-			(at 68.58 140.462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 68.58 138.684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 64.77 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.77 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e57a0bf8-3ebf-426a-856c-46eb5579fa83")
-		)
-		(pin "1"
-			(uuid "d368d3c8-de12-47dd-b923-ba4c82069b32")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 124.46 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4096127-8575-4352-9747-65e77fb44cd3")
-		(property "Reference" "R19"
-			(at 127 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 127 143.5099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 124.46 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ed0a56a9-4e3b-4ad4-afcf-62520ef3c752")
-		)
-		(pin "1"
-			(uuid "899211bc-bc7a-4d53-9887-fa16f548c7ac")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 25.4 170.18 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c4bda64e-6509-4a74-9401-ed5aada8f73a")
-		(property "Reference" "C6"
-			(at 21.336 170.942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 22.098 169.164 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 25.4 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 25.4 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "55ec6d1c-4db2-4e8a-86a5-e9c3fc212705")
-		)
-		(pin "1"
-			(uuid "eb33c175-7df9-431d-96d9-752dff59967e")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 83.82 55.88 180)
+		(at 72.39 107.95 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9098,7 +4000,7 @@
 		(dnp no)
 		(uuid "c617ba0a-ab81-43f0-a991-9213b8d95aad")
 		(property "Reference" "C13"
-			(at 79.756 56.642 0)
+			(at 68.326 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9108,7 +4010,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 80.518 54.864 0)
+			(at 69.088 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9118,7 +4020,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 83.82 55.88 0)
+			(at 72.39 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9129,7 +4031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 55.88 0)
+			(at 72.39 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9140,7 +4042,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 55.88 0)
+			(at 72.39 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9151,21 +4053,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "00624ead-cfd3-4ab4-9e42-9d17d3334a82")
+			(uuid "effac53a-ace8-4615-86d2-95f5b4da58c8")
 		)
 		(pin "1"
-			(uuid "a13adea8-53d2-4c8d-b5b7-23c51638e6d2")
+			(uuid "2586c574-6142-4fd3-bf25-89f29bd467a5")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "C13")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C6")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -9173,7 +4077,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 130.81 25.4 180)
+		(at 119.38 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9183,7 +4087,7 @@
 		(dnp no)
 		(uuid "c691b61e-388b-4c14-a7f7-cf738be829c7")
 		(property "Reference" "C21"
-			(at 134.62 26.162 0)
+			(at 123.19 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9193,7 +4097,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 134.62 24.384 0)
+			(at 123.19 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9203,7 +4107,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 130.81 25.4 0)
+			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9214,7 +4118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 25.4 0)
+			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9225,7 +4129,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 130.81 25.4 0)
+			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9236,105 +4140,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "9f824f09-5437-41a7-8ee7-9302d2f7bdd3")
+			(uuid "ab426a89-a6eb-4f47-873f-226811e4c398")
 		)
 		(pin "1"
-			(uuid "95e2a872-92b2-4bbe-a609-d6a295ee0fb2")
+			(uuid "cb65ce11-1ecc-4a70-8ceb-5754f2962a1f")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "C21")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 55.88 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8586d1a-7618-4971-b265-aea5d849c5e3")
-		(property "Reference" "#PWR034"
-			(at 55.88 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 55.88 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 55.88 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58712886-0f63-4765-bf3b-4866f7acbdc2")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR032")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -9342,178 +4164,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbe74d2c-c354-4491-87af-334cc0187b9f")
-		(property "Reference" "#PWR031"
-			(at 40.64 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cbeeb2b6-ef7d-4ca7-bed0-f960884c57d5")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 40.64 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf4d0923-f0ae-4329-92c9-260dfe0185ad")
-		(property "Reference" "R10"
-			(at 36.068 170.688 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.74K"
-			(at 34.29 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.64 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 40.64 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "30e64f16-6f8e-49a6-819b-8c3450245459")
-		)
-		(pin "1"
-			(uuid "99822ee9-5795-4fe2-9c9f-1e1ba60117c1")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 58.42 0)
+		(at 96.52 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9524,7 +4175,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf767480-8e67-43d2-8fad-dce2691d1f99")
 		(property "Reference" "#PWR052"
-			(at 107.95 64.77 0)
+			(at 96.52 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9535,7 +4186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 63.5 0)
+			(at 96.52 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9545,7 +4196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 58.42 0)
+			(at 96.52 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9556,7 +4207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 58.42 0)
+			(at 96.52 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9567,7 +4218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 58.42 0)
+			(at 96.52 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9578,18 +4229,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9fa2d05-8318-408a-b4df-164b33843452")
+			(uuid "4b20838e-9de3-429a-b238-11a1fcf1b4d8")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR052")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR03")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -9597,7 +4250,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 123.19 19.05 0)
+		(at 111.76 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9608,7 +4261,7 @@
 		(fields_autoplaced yes)
 		(uuid "d41fc617-15a8-4148-8112-f677dfdce4a7")
 		(property "Reference" "#PWR056"
-			(at 123.19 22.86 0)
+			(at 111.76 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9619,7 +4272,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 123.19 13.97 0)
+			(at 111.76 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9629,7 +4282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 19.05 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9640,7 +4293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 19.05 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9651,7 +4304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 123.19 19.05 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9662,18 +4315,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "62609843-58c5-461d-8f43-8f55468f219a")
+			(uuid "6226cd77-c26b-47d1-9295-bd7ff4fffb14")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR056")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR09")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -9681,91 +4336,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5fc077f-f3c8-46f4-ad44-6513994d3f6c")
-		(property "Reference" "#PWR033"
-			(at 49.53 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "378918f5-4c9a-40af-9f42-11c25583ff71")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 58.42 0)
+		(at 72.39 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9776,7 +4347,7 @@
 		(fields_autoplaced yes)
 		(uuid "d63cbbce-2676-47b3-9b94-1751c26663b3")
 		(property "Reference" "#PWR042"
-			(at 83.82 64.77 0)
+			(at 72.39 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9787,7 +4358,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 63.5 0)
+			(at 72.39 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9797,7 +4368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 58.42 0)
+			(at 72.39 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9808,7 +4379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 58.42 0)
+			(at 72.39 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9819,7 +4390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 58.42 0)
+			(at 72.39 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9830,102 +4401,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "1153cea3-4400-462c-b942-2a2e02ecd42e")
+			(uuid "daf251d4-50b3-45c4-89f5-e60640b071da")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR045")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR042")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0d048dd-e55b-4d35-968d-e2681861eda0")
-		(property "Reference" "#PWR059"
-			(at 124.46 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "351970e7-e552-407c-a709-87f4072da04e")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR058")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9933,7 +4422,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 91.44 50.8 90)
+		(at 80.01 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9943,7 +4432,7 @@
 		(dnp no)
 		(uuid "e3627ee9-df12-4737-a8a7-016badff0fb3")
 		(property "Reference" "R17"
-			(at 92.202 54.864 90)
+			(at 80.772 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9954,7 +4443,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 93.599 52.959 90)
+			(at 82.169 105.029 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9965,7 +4454,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.44 50.8 0)
+			(at 80.01 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9976,7 +4465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 50.8 0)
+			(at 80.01 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9987,7 +4476,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 91.44 50.8 0)
+			(at 80.01 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9998,372 +4487,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "682755f7-cdcf-42c5-8902-21fec722e15c")
+			(uuid "0c3c0dcd-8ddd-4d3f-8e02-53ddd09b3d59")
 		)
 		(pin "1"
-			(uuid "970f4230-8f9b-4b14-9c1d-f1735f8c36a0")
+			(uuid "172cff39-f43a-41d5-8d5c-a197518751ed")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "R17")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 124.46 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3cbbd1f-c362-40bd-8502-9e3ec19f85b4")
-		(property "Reference" "#PWR058"
-			(at 124.46 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 127 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 124.46 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ecc72981-329b-4960-ac2b-e40ab41f2574")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 110.49 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e49552af-4d77-4153-94b2-d591ce19cf23")
-		(property "Reference" "#PWR053"
-			(at 110.49 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 110.49 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 110.49 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9fb7e0b-2e45-42e5-ae05-422762b25401")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x06")
-		(at 270.51 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e8f4644a-b0b8-4924-a246-942070bb09cb")
-		(property "Reference" "J5"
-			(at 270.002 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x06"
-			(at 262.128 99.568 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05506HBLC_1x06_P5.00mm_Horizontal"
-			(at 270.51 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 270.51 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "a6da08ea-4c52-4109-a2f1-a51c2869bc9d")
-		)
-		(pin "6"
-			(uuid "dee2005b-8ec1-42f5-9d73-d425ef3365d9")
-		)
-		(pin "1"
-			(uuid "3b5a1cbc-6280-41d6-a6cf-1fad03fe8d3a")
-		)
-		(pin "4"
-			(uuid "451b5762-0c83-465e-9c7b-b7e90607aee2")
-		)
-		(pin "3"
-			(uuid "da1a0cbe-344c-4abe-a8e2-ea068af2f143")
-		)
-		(pin "2"
-			(uuid "2ececb4f-3431-44de-b45e-5cc978e16edd")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f09fb437-2086-48d6-ab22-b82a24d1b554")
-		(property "Reference" "#PWR030"
-			(at 33.02 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 153.162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d289f99-ae13-4798-9295-5593707ed77e")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR028")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -10371,7 +4511,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 114.3 25.4 180)
+		(at 102.87 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10381,7 +4521,7 @@
 		(dnp no)
 		(uuid "f3d6e29a-cc99-482e-b8a4-c401808fc41f")
 		(property "Reference" "C17"
-			(at 118.11 26.162 0)
+			(at 106.68 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10391,7 +4531,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 118.872 24.384 0)
+			(at 107.442 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10401,7 +4541,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 114.3 25.4 0)
+			(at 102.87 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10412,7 +4552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 25.4 0)
+			(at 102.87 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10423,7 +4563,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 114.3 25.4 0)
+			(at 102.87 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10434,21 +4574,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "703586f0-c191-4c15-a9e0-b61cfd28f0d7")
+			(uuid "118dd07e-4184-404d-be10-3f0332a4a35e")
 		)
 		(pin "1"
-			(uuid "57fffd4e-e8f2-4ad8-93b2-cd292d3c2f42")
+			(uuid "ec2f6a30-ef15-4e39-a0a9-0aec52f562af")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "C17")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "C3")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -10456,7 +4598,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 58.42 0)
+		(at 87.63 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10467,7 +4609,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4dd50f2-e40e-44f1-89d7-913657cec31d")
 		(property "Reference" "#PWR049"
-			(at 99.06 64.77 0)
+			(at 87.63 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10478,7 +4620,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 63.5 0)
+			(at 87.63 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10488,7 +4630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 58.42 0)
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10499,7 +4641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 58.42 0)
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10510,7 +4652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 58.42 0)
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10521,202 +4663,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e57750e-62d7-495a-8fa0-d43073b177b9")
+			(uuid "a8fd63e0-6309-445b-ae10-852b9c51030b")
 		)
 		(instances
 			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/4d03e860-a0bd-4ee1-ac23-f2043156ae72"
+					(reference "#PWR053")
+					(unit 1)
+				)
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/c56c4902-53f7-453b-b6f4-e1fb84351489"
 					(reference "#PWR049")
 					(unit 1)
 				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "#PWR012")
+				(path "/cb9cde49-491c-4637-83a4-9a90127d65a1/e6357099-1791-4e78-b14e-3314d4d21a5b"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 170.18 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f51b91ad-6543-443b-9d38-01d6718abb60")
-		(property "Reference" "R20"
-			(at 172.72 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 172.72 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 170.18 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 170.18 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b651919d-8794-4152-87a1-51ad9f764ff3")
-		)
-		(pin "1"
-			(uuid "54b40fa7-b4f4-4019-b716-fc78c6485b3b")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 73.66 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fab28866-757a-4170-ba4e-580f1e736f4f")
-		(property "Reference" "R12"
-			(at 70.104 88.646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 68.326 91.186 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 73.66 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a7c68ea1-cdd9-4ffc-bc73-915029ecf23c")
-		)
-		(pin "1"
-			(uuid "741c511b-4d27-4074-9ff4-9a4b7c82ebf8")
-		)
-		(instances
-			(project "clawtronics"
-				(path "/cc1ca336-3c31-444e-9aa4-ec0173cb8745"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "motors"
-				(path "/df82e617-458e-4dc3-af50-35e634a76340"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "2")
-		)
-	)
-	(embedded_fonts no)
 )
