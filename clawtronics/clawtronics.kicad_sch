@@ -6433,7 +6433,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 90.17 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6445,6 +6445,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 90.17 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-105K1L"
 			(at 90.17 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6515,7 +6526,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 101.6 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6527,6 +6538,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 101.6 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-105K1L"
 			(at 101.6 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6786,6 +6808,17 @@
 				)
 			)
 		)
+		(property "Part Number" "SML-D13M8WT86"
+			(at 101.6 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09abb344-2cff-495c-b6b3-ea226f955be1")
 		)
@@ -6845,7 +6878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603W106M6R3XD.pdf"
 			(at 153.67 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -6857,6 +6890,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 153.67 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0603W106M6R3XD"
 			(at 153.67 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -6926,7 +6970,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 165.735 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -6938,6 +6982,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 165.735 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C0603C104J3RACTU"
 			(at 165.735 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -7745,6 +7800,17 @@
 				)
 			)
 		)
+		(property "Part Number" "SMLEN3BC8TT86"
+			(at 111.76 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "776ec9f3-ae5c-48ac-9789-d32c7e3e5868")
 		)
@@ -7805,7 +7871,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 111.76 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7817,6 +7883,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 111.76 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-105K1L"
 			(at 111.76 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8121,6 +8198,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Part Number" "DX07S016JA3R1500"
+			(at 31.75 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "68bb3256-0b7a-4792-8325-be4f44f2b848")
 		)
@@ -8368,7 +8456,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 260.35 24.765 0)
 			(hide yes)
 			(show_name no)
@@ -8380,6 +8468,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 260.35 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-105K1L"
 			(at 260.35 24.765 0)
 			(hide yes)
 			(show_name no)
@@ -8490,9 +8589,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6a848700-d34c-4d1d-bc8a-6c4293c31f6d")
 		(property "Reference" "NT1"
@@ -8538,6 +8637,17 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
+			(at 274.32 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
 			(at 274.32 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8764,7 +8874,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 20.32 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -8776,6 +8886,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 20.32 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-105K1L"
 			(at 20.32 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -8845,7 +8966,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B105K100XD.pdf"
 			(at 270.51 40.005 0)
 			(hide yes)
 			(show_name no)
@@ -8857,6 +8978,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 270.51 40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0603B105K100XD"
 			(at 270.51 40.005 0)
 			(hide yes)
 			(show_name no)
@@ -9472,7 +9604,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 27.94 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9484,6 +9616,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 27.94 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-105K1L"
 			(at 27.94 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9588,6 +9731,17 @@
 			)
 		)
 		(property "MP" "ESP32-S3-WROOM-1U-N8R8"
+			(at 69.85 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ESP32-S3-WROOM-1U-N8R8"
 			(at 69.85 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9796,6 +9950,17 @@
 				)
 			)
 		)
+		(property "Part Number" "1869088"
+			(at 254 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "007582e9-815c-4fc0-8793-1383adac52a8")
 		)
@@ -9861,7 +10026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603W226M100BD.pdf"
 			(at 160.02 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9873,6 +10038,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0603W226M100BD"
 			(at 160.02 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10119,6 +10295,17 @@
 				)
 			)
 		)
+		(property "Part Number" "LD1117S33TR"
+			(at 144.78 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ea641a57-2ac9-489a-8f3c-12fa255ab1ba")
 		)
@@ -10293,6 +10480,17 @@
 				)
 			)
 		)
+		(property "Part Number" "SML-D12U8WT86"
+			(at 90.17 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6195d518-2910-4b05-90ba-9f8a7fb5b02b")
 		)
@@ -10399,6 +10597,17 @@
 			)
 		)
 		(property "MP" ""
+			(at 260.35 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GPTS203211B"
 			(at 260.35 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -10557,6 +10766,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x16, script generated"
+			(at 243.84 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SM16B-SHLS-TF(LF)(SN)"
 			(at 243.84 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10803,6 +11023,17 @@
 				)
 			)
 		)
+		(property "Part Number" "GPTS203211B"
+			(at 245.745 38.735 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "935b8be8-3ced-4e04-8390-ba6f3f0579fc")
 		)
@@ -10940,7 +11171,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 133.35 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10952,6 +11183,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "C0603C104J3RACTU"
 			(at 133.35 177.8 0)
 			(hide yes)
 			(show_name no)

@@ -3756,6 +3756,17 @@
 				)
 			)
 		)
+		(property "Part Number" "74LVC1G17"
+			(at 106.68 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "64ddef0d-a7bc-44e9-9857-826e8675953a")
 		)
@@ -4080,6 +4091,17 @@
 				)
 			)
 		)
+		(property "Part Number" "1869091"
+			(at 106.68 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "8a44666b-9b7f-4bb1-8993-25dff9afee13")
 		)
@@ -4193,6 +4215,17 @@
 				)
 			)
 		)
+		(property "Part Number" "1N4001"
+			(at 189.23 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a093337-8abd-4d66-a70d-3071142e65ef")
 		)
@@ -4266,6 +4299,17 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1729128"
 			(at 218.44 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4435,6 +4479,17 @@
 				)
 			)
 		)
+		(property "Part Number" "Put 5 + 4 together"
+			(at 154.94 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "d3184621-7c33-4b1f-9488-f0b30f01bdb4")
 		)
@@ -4527,6 +4582,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 165.1 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RMCF0603JT220R"
+			(at 165.1 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4638,7 +4704,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a0bb7106-f22c-4c3d-9eb0-1cc2e96ab479")
 		(property "Reference" "TP12"
 			(at 156.21 58.42 0)
@@ -4685,6 +4751,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 158.75 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
 			(at 158.75 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4767,6 +4844,17 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 186.69 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AO3400A"
 			(at 186.69 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4882,7 +4970,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b904f948-bca5-4a52-b2f6-e2b3d0199607")
 		(property "Reference" "TP11"
 			(at 93.98 113.03 0)
@@ -4929,6 +5017,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 96.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
 			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5008,6 +5107,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 177.8 62.23 0)
 			(hide yes)
 			(show_name no)

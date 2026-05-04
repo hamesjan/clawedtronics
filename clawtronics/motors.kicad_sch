@@ -2152,7 +2152,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "05e57a9d-a812-4a02-a177-74219b50634c")
 		(property "Reference" "TP3"
 			(at 74.93 99.06 0)
@@ -2199,6 +2199,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 72.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
 			(at 72.39 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2271,7 +2282,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B104K101XD.pdf"
 			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2283,6 +2294,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 80.01 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0603B104K101XD"
 			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2528,7 +2550,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6490/3372_0603B223K500SD.pdf"
 			(at 173.99 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2541,6 +2563,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 173.99 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0603B223K500SD"
+			(at 173.99 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2640,6 +2673,17 @@
 				)
 			)
 		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 171.45 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9a595d24-19d6-4957-91d4-c225dbf795b9")
 		)
@@ -2719,6 +2763,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 74.93 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
 			(at 74.93 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2809,6 +2864,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 74.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RMCF0603FT2K21"
 			(at 74.93 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2969,7 +3035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603W106M6R3XD.pdf"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2981,6 +3047,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 111.76 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0603W106M6R3XD"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3311,6 +3388,17 @@
 				(justify bottom)
 			)
 		)
+		(property "Part Number" "DRV8876PWPR"
+			(at 146.05 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "5d786e3d-8949-4886-bf83-08d009622350")
 		)
@@ -3531,6 +3619,17 @@
 				)
 			)
 		)
+		(property "Part Number" "RMCF0603FT2K74"
+			(at 87.63 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c303c9e8-1152-4b9f-b8bb-854ec5358d79")
 		)
@@ -3563,7 +3662,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "74a776e7-1d5d-4fbd-a2e9-172947a692b1")
 		(property "Reference" "TP4"
 			(at 181.61 83.82 0)
@@ -3610,6 +3709,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 179.07 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
 			(at 179.07 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3879,6 +3989,17 @@
 				)
 			)
 		)
+		(property "Part Number" "1729128"
+			(at 204.47 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "33c6b37c-4517-4241-98f2-5b7db801ef5d")
 		)
@@ -4030,7 +4151,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B104K101XD.pdf"
 			(at 72.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4042,6 +4163,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0603B104K101XD"
 			(at 72.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4117,7 +4249,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B104K101XD.pdf"
 			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4129,6 +4261,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0603B104K101XD"
 			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4486,6 +4629,17 @@
 				)
 			)
 		)
+		(property "Part Number" "RMCF0603FT1K00"
+			(at 80.01 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0c3c0dcd-8ddd-4d3f-8e02-53ddd09b3d59")
 		)
@@ -4551,7 +4705,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B104K101XD.pdf"
 			(at 102.87 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4563,6 +4717,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 102.87 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0603B104K101XD"
 			(at 102.87 77.47 0)
 			(hide yes)
 			(show_name no)

@@ -145,9 +145,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
@@ -205,6 +205,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eaab959b-fe58-450a-86c5-3cbbbc378c45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47829cd3-7d15-47bf-96b7-b3770fd297ef")
 			(effects
 				(font
 					(size 1 1)
@@ -662,6 +675,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96d75774-7a63-4adf-bd63-4f201c88b0f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4e0169ae-c4db-4935-8583-269b860dc3e2")
 		(sheetname "/")
@@ -820,6 +846,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21c21714-e25c-4cb6-9545-b0dffb926aeb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4d03e860-a0bd-4ee1-ac23-f2043156ae72/0ba217c5-690b-4a74-b7d2-e6c7d92764ab")
 		(sheetname "/motors1/")
@@ -971,6 +1010,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6854fb83-749e-4f41-a8fc-b5aab788bd5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f509c2e-1b2b-44c9-9021-4701b7fa5f5a")
 			(effects
 				(font
 					(size 1 1)
@@ -1271,6 +1323,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b75eb19-4514-4ccf-b8b5-566cd1d81179")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "335c08c4-6702-415a-99b5-c0cc3eab30c3")
 			(effects
 				(font
 					(size 1 1)
@@ -1782,6 +1847,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51ecfccb-c818-4be7-bfae-43fc4b20699e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/23de1798-1634-4a97-b304-41db10886195")
 		(sheetname "/")
@@ -1940,6 +2018,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9afae0b3-3eee-438a-87db-53fadb579d42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e6357099-1791-4e78-b14e-3314d4d21a5b/c617ba0a-ab81-43f0-a991-9213b8d95aad")
 		(sheetname "/motors2/")
@@ -2091,6 +2182,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "298945b7-e6a4-4d48-9180-959bc2306a7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3aa7762-9159-4e06-9d0e-d1c60cabb49d")
 			(effects
 				(font
 					(size 1 1)
@@ -2464,6 +2568,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b591057-a4c3-44a4-b59b-6efda18a7648")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/62d7043c-161e-435e-ad5a-57978b060f7f")
 		(sheetname "/")
@@ -2622,6 +2739,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8bdb07e-f589-4f4f-8ec5-67b2cc70c539")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fa6654b-efe5-4a87-b933-d26b442c9e2a")
 		(sheetname "/")
@@ -2773,6 +2903,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "28e70dab-8fe9-495d-b7ef-eb67b7197a3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14c806ce-56c6-472e-8601-0c33e284afcc")
 			(effects
 				(font
 					(size 1 1)
@@ -3060,6 +3203,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1db697f-51b7-4d15-8de6-ddf759a8a75d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1840618c-56d5-463c-913e-f4fa74414a84")
 			(effects
 				(font
 					(size 1 1)
@@ -4232,6 +4388,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6b2f900-de0c-4d48-ade1-050337402b23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c56c4902-53f7-453b-b6f4-e1fb84351489/6a82fd9f-4eaa-4301-b517-78df54bd6f87")
 		(sheetname "/motors/")
 		(sheetfile "motors.kicad_sch")
@@ -4736,6 +4905,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38c7284a-fa0d-4221-bf0c-8476a148277e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e419ffb4-b014-4124-aadb-60a4cb7db642")
 		(sheetname "/")
@@ -5153,6 +5335,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "307b12ae-86dc-4ea0-adbd-acb239696f6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c56c4902-53f7-453b-b6f4-e1fb84351489/f3d6e29a-cc99-482e-b8a4-c401808fc41f")
 		(sheetname "/motors/")
@@ -5299,6 +5494,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cd432b3-3ab5-484d-8b3e-947915635f90")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5478,6 +5686,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf94c999-72be-4418-90f5-0dff7fc201f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4d03e860-a0bd-4ee1-ac23-f2043156ae72/e3627ee9-df12-4737-a8a7-016badff0fb3")
 		(sheetname "/motors1/")
@@ -5642,6 +5863,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6b4c6ab8-9aca-4df1-ab57-0d57ba010249")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9542b9cb-eb0a-43f3-b10d-d75952e79f7f")
 			(effects
 				(font
 					(size 1 1)
@@ -5858,6 +6092,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dc3be8e-1aae-46e9-beea-cf5f4887623a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b2ac68d3-1da9-4118-91a8-8b46c662d028")
 		(sheetname "/")
@@ -6040,6 +6287,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2df6d56e-7305-4a1f-aff3-8aff160bcc06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9ca1780-aec6-4c40-b874-f8a5d244387e")
 			(effects
 				(font
 					(size 1 1)
@@ -6307,6 +6567,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d429f3b3-7f64-492a-88f8-32c161718544")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e6357099-1791-4e78-b14e-3314d4d21a5b/05e57a9d-a812-4a02-a177-74219b50634c")
 		(sheetname "/motors2/")
@@ -6475,6 +6748,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4a76706e-8772-4030-b71e-8bd54e61d8be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecac4060-95f8-4aaf-a727-398166c58717")
 			(effects
 				(font
 					(size 1 1)
@@ -6659,6 +6945,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2982c659-5dca-4196-a216-140193940e9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab6aadb1-d1ab-4925-a960-e1bfcc6e2d95")
 			(effects
 				(font
 					(size 1 1)
@@ -6935,6 +7234,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d3cd8459-53a5-4931-a499-c99536dfd38b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81887ef2-e831-437b-86bc-485256697eaa")
 			(effects
 				(font
 					(size 1 1)
@@ -7549,7 +7861,7 @@
 		(property "Reference" "U9"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
-			(uuid "a0190bb4-f248-4918-a9e1-74185be48b61")
+			(uuid "199ac5f3-0849-4a23-bd9b-88f7f639dfdc")
 			(effects
 				(font
 					(size 1 1)
@@ -7560,7 +7872,7 @@
 		(property "Value" "74LVC1G17"
 			(at 0 2 0)
 			(layer "F.Fab")
-			(uuid "db172884-a1e1-4ef2-b0fd-cb9040008ecd")
+			(uuid "0bc7b76f-73d1-46b0-907e-22af2fcc5a11")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -7573,7 +7885,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea025afe-1dc8-49f2-9e22-2c285703510c")
+			(uuid "2929e865-5ead-4a3c-aa89-aa724c7c1a8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,10 +7898,23 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "40589476-fc0d-4942-9ceb-cd0e91ff2bc3")
+			(uuid "0e54f845-6aa8-477f-a5f6-810beda46b47")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9a4b418-1123-4b58-a9ae-de8a39d16858")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7879,7 +8204,7 @@
 		(pad "3" thru_hole circle
 			(at 0 0)
 			(size 0.305 0.305)
-			(drill 0.102)
+			(drill 0.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -8017,6 +8342,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "91cbc0be-7857-4dab-892a-a8d4f0296db3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52bbcfcb-8346-4444-8e5f-439781a1547a")
 			(effects
 				(font
 					(size 1 1)
@@ -8182,6 +8520,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e306400-b05f-42ae-a228-5d312ae0fe66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e6357099-1791-4e78-b14e-3314d4d21a5b/0ba217c5-690b-4a74-b7d2-e6c7d92764ab")
 		(sheetname "/motors2/")
@@ -8328,6 +8679,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7df6107d-3d9b-428e-b099-a260c87cee6d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8507,6 +8871,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ef7f649-d746-47e8-98e8-32afbbfef03b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/07b6f859-767b-462f-bbc9-09e4f15ec00e")
 		(sheetname "/")
@@ -8665,6 +9042,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9d38351-58ef-4f2a-b97e-cfb6d1bdd55b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4d03e860-a0bd-4ee1-ac23-f2043156ae72/39b2ce1b-2d97-4543-9fa1-e0b4ff81e2a2")
 		(sheetname "/motors1/")
@@ -8811,6 +9201,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c426f934-92ea-48e4-97e9-62f9193941ba")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8990,6 +9393,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed2b69ca-b312-4912-9a9a-dcba88d2b723")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e6357099-1791-4e78-b14e-3314d4d21a5b/3799abc1-99e7-4125-b3f2-1dcce64cee14")
 		(sheetname "/motors2/")
@@ -9141,6 +9557,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cde0f1ad-b0c1-4d4c-ac82-8131c173b724")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5a896b3-563e-4c06-b898-3af3e3e41dbc")
 			(effects
 				(font
 					(size 1 1)
@@ -9306,6 +9735,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64dedbbf-0f77-4236-a140-57ebb1ecc578")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4d03e860-a0bd-4ee1-ac23-f2043156ae72/c617ba0a-ab81-43f0-a991-9213b8d95aad")
 		(sheetname "/motors1/")
@@ -9457,6 +9899,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9f8c038d-d745-402d-aef9-1523565077a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efdd6096-50b3-4fb0-b95c-d6abfc44904f")
 			(effects
 				(font
 					(size 1 1)
@@ -9622,6 +10077,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5267be4d-ddac-4d2e-bbe0-3a940c802a81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/04323911-498f-4b8f-b2b7-07ac08d4db12")
 		(sheetname "/")
@@ -9773,6 +10241,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "527db1d7-1559-4b34-9e7a-646389b98af0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b382749c-93cd-426d-b57e-03c77774e4e0")
 			(effects
 				(font
 					(size 1 1)
@@ -10146,6 +10627,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a97b996-7101-4e50-8a3c-74bbea448c42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4d03e860-a0bd-4ee1-ac23-f2043156ae72/c691b61e-388b-4c14-a7f7-cf738be829c7")
 		(sheetname "/motors1/")
@@ -10297,6 +10791,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e5d03a59-22cd-4b69-b815-6cb45e9c83e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ede03b03-f8b4-4466-b811-b3b080aa35c7")
 			(effects
 				(font
 					(size 1 1)
@@ -10468,6 +10975,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0c3d915-5fbe-4713-897c-2987fa342c62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca92caca-03c6-4846-a004-8c5a6162b9c5")
 			(effects
 				(font
 					(size 1 1)
@@ -10684,6 +11204,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1e29383-900f-48f1-9c2b-a405f4b85b83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e6357099-1791-4e78-b14e-3314d4d21a5b/c691b61e-388b-4c14-a7f7-cf738be829c7")
 		(sheetname "/motors2/")
@@ -10830,6 +11363,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce2bfe4b-91ee-4a19-915a-ff92f776d774")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11009,6 +11555,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98566dfc-d6b4-4e16-a745-d4133094e7d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c56c4902-53f7-453b-b6f4-e1fb84351489/e3627ee9-df12-4737-a8a7-016badff0fb3")
 		(sheetname "/motors/")
@@ -11167,6 +11726,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e41c567c-83e6-4389-ad96-54ba08b2fdf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4d03e860-a0bd-4ee1-ac23-f2043156ae72/f3d6e29a-cc99-482e-b8a4-c401808fc41f")
 		(sheetname "/motors1/")
@@ -11318,6 +11890,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1a883607-25ca-4183-801b-c583d9c7f387")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0178a1c8-310c-42c7-922c-073812858f92")
 			(effects
 				(font
 					(size 1 1)
@@ -11817,6 +12402,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c18537a-40b4-4729-bf25-28e72747f38c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c56c4902-53f7-453b-b6f4-e1fb84351489/6522d709-ad21-4b1d-add9-c6bc2e30b4bf")
 		(sheetname "/motors/")
@@ -11975,6 +12573,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45453b8f-701f-478a-af5c-c84491644051")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c56c4902-53f7-453b-b6f4-e1fb84351489/489cf213-49c1-43e7-85ff-90f88fb30644")
 		(sheetname "/motors/")
@@ -12126,6 +12737,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ec40b918-a7a6-4200-a7f7-a341bd47f9d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f525aa5f-29d7-4313-a018-9f0e3febf2d8")
 			(effects
 				(font
 					(size 1 1)
@@ -12499,6 +13123,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c653fe64-4b41-44c2-8821-28176a08c07d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e6357099-1791-4e78-b14e-3314d4d21a5b/36d5fac8-38f4-4348-97c1-3e809e54f5d8")
 		(sheetname "/motors2/")
@@ -12657,6 +13294,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "659d7ca2-2d82-4df4-bd49-e4d9e94e9ecf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4d03e860-a0bd-4ee1-ac23-f2043156ae72/489cf213-49c1-43e7-85ff-90f88fb30644")
 		(sheetname "/motors1/")
@@ -12803,6 +13453,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fd10574-12ce-4716-a65e-3946c72b4907")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12982,6 +13645,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a41cc4a-9cf3-47af-a949-add35716a14f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c56c4902-53f7-453b-b6f4-e1fb84351489/c617ba0a-ab81-43f0-a991-9213b8d95aad")
 		(sheetname "/motors/")
@@ -13140,6 +13816,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07707b4e-22c7-4ba1-938e-b4e740f77c13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c56c4902-53f7-453b-b6f4-e1fb84351489/3799abc1-99e7-4125-b3f2-1dcce64cee14")
 		(sheetname "/motors/")
@@ -13291,6 +13980,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8e073d16-57d3-40da-ae18-8f31b30cff38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d7f74c6-5e6f-4a05-85e6-1b1245a17062")
 			(effects
 				(font
 					(size 1 1)
@@ -13463,6 +14165,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4794df73-5589-4505-8261-361c7ab2687e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" "ESP32-S3-WROOM-1U-N8R8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4408558-5424-440f-9e1b-85bfb90a6a50")
 			(effects
 				(font
 					(size 1 1)
@@ -14253,6 +14968,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7a26193-c528-4e0f-9d82-5533d30e776d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/85179c29-ffc9-4fa1-83a3-24bcaa94866e/5d0d8333-75a4-447a-ace2-299264c1f21a")
 		(sheetname "/switches/")
@@ -14619,6 +15347,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c34d6f80-e8e9-4638-a6b5-a9aa565f5acd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4d03e860-a0bd-4ee1-ac23-f2043156ae72/6e729a99-175d-4f1a-ab96-7705166d89fa")
 		(sheetname "/motors1/")
@@ -14765,6 +15506,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5030739a-69cb-4a95-84b3-20a8d5369c64")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15062,6 +15816,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef72ef10-34d9-45f2-a022-6a4772ccc9e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/4a5fa681-56d9-4656-afa6-3d09ce88fe2e")
 		(sheetname "/")
@@ -15271,6 +16038,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65465adc-e389-4c59-a333-745ee30ee40c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c56c4902-53f7-453b-b6f4-e1fb84351489/c691b61e-388b-4c14-a7f7-cf738be829c7")
 		(sheetname "/motors/")
@@ -15422,6 +16202,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d87c4d73-cd63-4910-a69a-f0cb8035047c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e943cba-e540-4217-82c7-098d36d9c7e5")
 			(effects
 				(font
 					(size 1 1)
@@ -15587,6 +16380,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e69b1ef7-2cd8-4ded-8631-b44aac3861ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/85179c29-ffc9-4fa1-83a3-24bcaa94866e/91148294-9f6c-431f-a253-9c2c0b72a438")
 		(sheetname "/switches/")
@@ -15745,6 +16551,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c9e8fc7-9154-4c9b-9e95-82844744c5b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/93e242cf-8693-45d8-9123-bcea07c16a05")
 		(sheetname "/")
@@ -15891,6 +16710,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b37d259e-1460-48e5-8a8c-a1f915a3a8ef")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16205,6 +17037,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd10e66b-fdb4-4962-85d1-cc6373357814")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e6f0872-0f14-4b3e-b182-d243afe3fc59")
 			(effects
 				(font
 					(size 1 1)
@@ -16716,6 +17561,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e45e27b-a3c6-4168-8cb6-b6408eff978f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e6357099-1791-4e78-b14e-3314d4d21a5b/f3d6e29a-cc99-482e-b8a4-c401808fc41f")
 		(sheetname "/motors2/")
@@ -16867,6 +17725,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "698609ca-b540-4641-be34-4907aa953dd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c74ebb1-8e3e-4b65-9a72-87c618252dfa")
 			(effects
 				(font
 					(size 1 1)
@@ -17056,6 +17927,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8d7e18d7-cfd3-4435-8019-07db816c6d84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "342c86a7-533a-4c9c-ad5a-d588d6e21d10")
 			(effects
 				(font
 					(size 1 1)
@@ -17331,6 +18215,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "473e792e-6d0c-4473-b360-e1ef96875792")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e6357099-1791-4e78-b14e-3314d4d21a5b/e3627ee9-df12-4737-a8a7-016badff0fb3")
 		(sheetname "/motors2/")
@@ -17482,6 +18379,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2b94218c-51e9-4948-900d-97cf0b690f43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37bc451d-0698-4802-b53b-8ca4f509da91")
 			(effects
 				(font
 					(size 1 1)
@@ -17647,6 +18557,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e73302d9-7f45-4da4-976f-51d899fea6ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e6357099-1791-4e78-b14e-3314d4d21a5b/39b2ce1b-2d97-4543-9fa1-e0b4ff81e2a2")
 		(sheetname "/motors2/")
@@ -17798,6 +18721,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a40956a3-1ed4-40aa-8aa0-2e15273cb980")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f881816-b90d-42f8-b6e6-0bb960b990cb")
 			(effects
 				(font
 					(size 1 1)
@@ -17963,6 +18899,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8235eea-0643-422f-8906-0e7ddc1d805b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/85179c29-ffc9-4fa1-83a3-24bcaa94866e/d1a0a94e-c732-4b52-a8a5-b875adf3e682")
 		(sheetname "/switches/")
@@ -18114,6 +19063,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c41adffc-5a0d-45f6-9cb2-a73e7ef638c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a787bf1b-672e-4f85-9492-bac3aab90bb4")
 			(effects
 				(font
 					(size 1 1)
@@ -18503,6 +19465,19 @@
 				)
 			)
 		)
+		(property "Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eed3d093-0ff3-4313-a8f7-930cf6e3dda9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e6357099-1791-4e78-b14e-3314d4d21a5b/6522d709-ad21-4b1d-add9-c6bc2e30b4bf")
 		(sheetname "/motors2/")
@@ -18649,6 +19624,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d83df340-1b92-41b9-8cd1-4bec9f600844")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
