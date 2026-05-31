@@ -5,23 +5,77 @@
  */
 
 #include <stdio.h>
-#include <inttypes.h>
-#include "sdkconfig.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "esp_chip_info.h"
-#include "esp_flash.h"
-#include "esp_system.h"
 #include "driver/gpio.h"
 
-#define GPIO_INPUT_PIN_11 11
-#define GPIO_INPUT_PIN_12 12
-#define GPIO_OUTPUT_PIN_10 10
+// Motor IN1 outputs (speed/enable)
+#define MOTOR1_IN1  8
+#define MOTOR2_IN1  9
+#define MOTOR3_IN1  45
+
+// Motor IN2 outputs (direction)
+#define DIR1        11   // Motor 2 IN2
+#define DIR2        10   // Motor 3 IN2
+#define DIR3        46   // Motor 1 IN2
+
+// LED output
+#define LED         44
+
+// Grip output
+#define GRIP        18
+
+// IPRORI inputs
+#define IPRORI_1    1
+#define IPRORI_2    2
+#define IPRORI_3    3
+
+// N_FAULT inputs (active low)
+#define NFAULT_1    12
+#define NFAULT_2    13
+#define NFAULT_3    14
+
+#define CYCLE_MS    2000
+#define GRIP_MS     3000
+
+static void print_status(int cycle, const char *state)
+{
+    printf("\n--- Cycle %d | %-3s ---\n", cycle, state);
+    printf("  Motors  : M1_IN1=%-1d  M2_IN1=%-1d  M3_IN1=%-1d\n",
+        gpio_get_level(MOTOR1_IN1),
+        gpio_get_level(MOTOR2_IN1),
+        gpio_get_level(MOTOR3_IN1));
+    printf("  Dir     : DIR1=%-1d  DIR2=%-1d  DIR3=%-1d\n",
+        gpio_get_level(DIR1),
+        gpio_get_level(DIR2),
+        gpio_get_level(DIR3));
+    printf("  IPRORI  : 1=%-1d  2=%-1d  3=%-1d\n",
+        gpio_get_level(IPRORI_1),
+        gpio_get_level(IPRORI_2),
+        gpio_get_level(IPRORI_3));
+    printf("  N_FAULT : 1=%-1d  2=%-1d  3=%-1d  %s\n",
+        gpio_get_level(NFAULT_1),
+        gpio_get_level(NFAULT_2),
+        gpio_get_level(NFAULT_3),
+        (!gpio_get_level(NFAULT_1) || !gpio_get_level(NFAULT_2) || !gpio_get_level(NFAULT_3))
+            ? "<<< FAULT" : "OK");
+}
+
+static void grip_task(void *arg)
+{
+    for (;;) {
+        gpio_set_level(GRIP, 1);
+        vTaskDelay(GRIP_MS / portTICK_PERIOD_MS);
+        gpio_set_level(GRIP, 0);
+        vTaskDelay(GRIP_MS / portTICK_PERIOD_MS);
+    }
+}
 
 void app_main(void)
 {
     gpio_config_t in_conf = {
-        .pin_bit_mask = (1ULL << GPIO_INPUT_PIN_11) | (1ULL << GPIO_INPUT_PIN_12),
+        .pin_bit_mask = (1ULL << IPRORI_1) | (1ULL << IPRORI_2) | (1ULL << IPRORI_3) |
+                        (1ULL << NFAULT_1) | (1ULL << NFAULT_2) | (1ULL << NFAULT_3),
         .mode = GPIO_MODE_INPUT,
         .pull_up_en = GPIO_PULLUP_ENABLE,
         .pull_down_en = GPIO_PULLDOWN_DISABLE,
@@ -30,7 +84,8 @@ void app_main(void)
     gpio_config(&in_conf);
 
     gpio_config_t out_conf = {
-        .pin_bit_mask = (1ULL << GPIO_OUTPUT_PIN_10),
+        .pin_bit_mask = (1ULL << MOTOR1_IN1) | (1ULL << MOTOR2_IN1) | (1ULL << MOTOR3_IN1) |
+                        (1ULL << DIR1) | (1ULL << DIR2) | (1ULL << DIR3) | (1ULL << LED) | (1ULL << GRIP),
         .mode = GPIO_MODE_OUTPUT,
         .pull_up_en = GPIO_PULLUP_DISABLE,
         .pull_down_en = GPIO_PULLDOWN_DISABLE,
@@ -38,46 +93,29 @@ void app_main(void)
     };
     gpio_config(&out_conf);
 
-    int toggle = 0;
-    while (1)
-    {
-        gpio_set_level(GPIO_OUTPUT_PIN_10, toggle);
-        toggle = !toggle;
+    xTaskCreate(grip_task, "grip", 2048, NULL, 5, NULL);
 
-        printf("GPIO 10: %d  GPIO 11: %d  GPIO 12: %d\n",
-            gpio_get_level(GPIO_OUTPUT_PIN_10),
-            gpio_get_level(GPIO_INPUT_PIN_11),
-            gpio_get_level(GPIO_INPUT_PIN_12));
-        vTaskDelay(4000 / portTICK_PERIOD_MS);
+    for (int i = 1; ; i++) {
+        int dir = i % 2;
 
-        printf("Hello world!\n");
+        gpio_set_level(MOTOR1_IN1, 1);
+        gpio_set_level(MOTOR2_IN1, 1);
+        gpio_set_level(MOTOR3_IN1, 1);
+        gpio_set_level(DIR1,       dir);
+        gpio_set_level(DIR2,       dir);
+        gpio_set_level(DIR3,       dir);
+        gpio_set_level(LED,        1);
+        print_status(i, "ON");
+        vTaskDelay(CYCLE_MS / portTICK_PERIOD_MS);
 
-        /* Print chip information */
-        esp_chip_info_t chip_info;
-        uint32_t flash_size;
-        esp_chip_info(&chip_info);
-        printf("This is %s chip with %d CPU core(s), %s%s%s%s, ",
-            CONFIG_IDF_TARGET,
-            chip_info.cores,
-            (chip_info.features & CHIP_FEATURE_WIFI_BGN) ? "WiFi/" : "",
-            (chip_info.features & CHIP_FEATURE_BT) ? "BT" : "",
-            (chip_info.features & CHIP_FEATURE_BLE) ? "BLE" : "",
-            (chip_info.features & CHIP_FEATURE_IEEE802154) ? ", 802.15.4 (Zigbee/Thread)" : "");
-
-        unsigned major_rev = chip_info.revision / 100;
-        unsigned minor_rev = chip_info.revision % 100;
-        printf("silicon revision v%d.%d, ", major_rev, minor_rev);
-        if(esp_flash_get_size(NULL, &flash_size) != ESP_OK) {
-            printf("Get flash size failed");
-            return;
-        }
-
-        printf("%" PRIu32 "MB %s flash\n", flash_size / (uint32_t)(1024 * 1024),
-            (chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
-
-        printf("Minimum free heap size: %" PRIu32 " bytes\n", esp_get_minimum_free_heap_size());
-
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
-        fflush(stdout);
+        gpio_set_level(MOTOR1_IN1, 0);
+        gpio_set_level(MOTOR2_IN1, 0);
+        gpio_set_level(MOTOR3_IN1, 0);
+        gpio_set_level(DIR1,       0);
+        gpio_set_level(DIR2,       0);
+        gpio_set_level(DIR3,       0);
+        gpio_set_level(LED,        0);
+        print_status(i, "OFF");
+        vTaskDelay(CYCLE_MS / portTICK_PERIOD_MS);
     }
 }

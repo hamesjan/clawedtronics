@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.2,
-          "height": 0.305,
-          "width": 0.305
+          "height": 0.45,
+          "width": 0.45
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -556,7 +556,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "../../../Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
