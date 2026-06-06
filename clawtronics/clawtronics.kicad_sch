@@ -6948,7 +6948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 167.005 179.705 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10552,7 +10552,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3U-1000P/1534338"
 			(at 270.51 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10607,7 +10607,7 @@
 				)
 			)
 		)
-		(property "Part Number" "GPTS203211B"
+		(property "Part Number" "B3U-1000P"
 			(at 260.35 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -10968,7 +10968,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3U-1000P/1534338"
 			(at 255.905 38.735 0)
 			(hide yes)
 			(show_name no)
@@ -11023,7 +11023,7 @@
 				)
 			)
 		)
-		(property "Part Number" "GPTS203211B"
+		(property "Part Number" "B3U-1000P"
 			(at 245.745 38.735 90)
 			(hide yes)
 			(show_name no)
@@ -11149,7 +11149,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 134.62 179.705 0)
 			(show_name no)
 			(do_not_autoplace no)

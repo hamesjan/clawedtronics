@@ -2282,7 +2282,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B104K101XD.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2304,7 +2304,7 @@
 				)
 			)
 		)
-		(property "Part Number" "0603B104K101XD"
+		(property "Part Number" "C0603C104J3RACTU"
 			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4151,7 +4151,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B104K101XD.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 72.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4173,7 +4173,7 @@
 				)
 			)
 		)
-		(property "Part Number" "0603B104K101XD"
+		(property "Part Number" "C0603C104J3RACTU"
 			(at 72.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4249,7 +4249,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B104K101XD.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4271,7 +4271,7 @@
 				)
 			)
 		)
-		(property "Part Number" "0603B104K101XD"
+		(property "Part Number" "C0603C104J3RACTU"
 			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4705,7 +4705,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6482/3372_0603B104K101XD.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 102.87 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4727,7 +4727,7 @@
 				)
 			)
 		)
-		(property "Part Number" "0603B104K101XD"
+		(property "Part Number" "C0603C104J3RACTU"
 			(at 102.87 77.47 0)
 			(hide yes)
 			(show_name no)
